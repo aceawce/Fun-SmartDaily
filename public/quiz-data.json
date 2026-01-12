@@ -1,0 +1,3114 @@
+{
+  "categories": [
+    {
+      "category": "Geography",
+      "questions": [
+        {
+          "question": "What is the capital of France?",
+          "options": ["A. Lyon", "B. Paris", "C. Marseille", "D. Nice"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the largest ocean on Earth?",
+          "options": ["A. Atlantic Ocean", "B. Indian Ocean", "C. Pacific Ocean", "D. Arctic Ocean"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Japan?",
+          "options": ["A. Kyoto", "B. Tokyo", "C. Osaka", "D. Yokohama"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which mountain is the highest in the world?",
+          "options": ["A. K2", "B. Kangchenjunga", "C. Mount Everest", "D. Makalu"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Multiple Choice Puzzle"
+        },
+        {
+          "question": "What is the capital of Australia?",
+          "options": ["A. Sydney", "B. Melbourne", "C. Canberra", "D. Brisbane"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which desert is the largest in the world?",
+          "options": ["A. Sahara", "B. Arabian", "C. Gobi", "D. Antarctic"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Brazil?",
+          "options": ["A. Rio de Janeiro", "B. São Paulo", "C. Brasília", "D. Salvador"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which river is the longest in the world?",
+          "options": ["A. Amazon", "B. Yangtze", "C. Nile", "D. Mississipi"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Germany?",
+          "options": ["A. Munich", "B. Hamburg", "C. Berlin", "D. Frankfurt"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the smallest country in the world?",
+          "options": ["A. Monaco", "B. San Marino", "C. Vatican City", "D. Liechtenstein"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Canada?",
+          "options": ["A. Toronto", "B. Vancouver", "C. Ottawa", "D. Montreal"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which continent is the hottest?",
+          "options": ["A. Asia", "B. Africa", "C. South America", "D. Australia"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of India?",
+          "options": ["A. Mumbai", "B. Delhi", "C. New Delhi", "D. Bangalore"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the second longest river in the world?",
+          "options": ["A. Yangtze", "B. Amazon", "C. Mississipi", "D. Ob"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Spain?",
+          "options": ["A. Barcelona", "B. Valencia", "C. Madrid", "D. Seville"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is also a continent?",
+          "options": ["A. New Zealand", "B. Australia", "C. Greenland", "D. Iceland"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Italy?",
+          "options": ["A. Milan", "B. Venice", "C. Rome", "D. Florence"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the deepest ocean trench?",
+          "options": ["A. Mariana Trench", "B. Tonga Trench", "C. Philippine Trench", "D. Kuril Trench"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Mexico?",
+          "options": ["A. Cancun", "B. Mexico City", "C. Guadalajara", "D. Monterrey"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which mountain range is the longest?",
+          "options": ["A. Himalayas", "B. Andes", "C. Rocky Mountains", "D. Alps"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Russia?",
+          "options": ["A. St. Petersburg", "B. Novosibirsk", "C. Moscow", "D. Yekaterinburg"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the most populous country?",
+          "options": ["A. India", "B. United States", "C. Indonesia", "D. Pakistan"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of South Africa?",
+          "options": ["A. Johannesburg", "B. Cape Town", "C. Pretoria", "D. Durban"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which river flows through Egypt?",
+          "options": ["A. Niger", "B. Congo", "C. Nile", "D. Zambezi"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Poland?",
+          "options": ["A. Krakow", "B. Gdansk", "C. Warsaw", "D. Wroclaw"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country has the most islands?",
+          "options": ["A. Philippines", "B. Indonesia", "C. Sweden", "D. Norway"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Switzerland?",
+          "options": ["A. Zurich", "B. Bern", "C. Geneva", "D. Lausanne"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the largest lake in the world?",
+          "options": ["A. Lake Superior", "B. Lake Baikal", "C. Caspian Sea", "D. Lake Michigan"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Greece?",
+          "options": ["A. Sparta", "B. Athens", "C. Thessaloniki", "D. Patras"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is located on two continents?",
+          "options": ["A. Turkey", "B. Suez", "C. Egypt", "D. Russia"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Argentina?",
+          "options": ["A. Cordoba", "B. Rosario", "C. Buenos Aires", "D. Mendoza"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which desert is the largest in Africa?",
+          "options": ["A. Kalahari", "B. Namib", "C. Sahara", "D. Arabian"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Portugal?",
+          "options": ["A. Porto", "B. Covilha", "C. Lisbon", "D. Aveiro"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the highest waterfall in the world?",
+          "options": ["A. Niagara Falls", "B. Angel Falls", "C. Victoria Falls", "D. Yosemite Falls"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Belgium?",
+          "options": ["A. Antwerp", "B. Brussels", "C. Ghent", "D. Charleroi"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country borders the most countries?",
+          "options": ["A. Russia", "B. China", "C. France", "D. Germany"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Netherlands?",
+          "options": ["A. Rotterdam", "B. The Hague", "C. Amsterdam", "D. Utrecht"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the largest mountain range in South America?",
+          "options": ["A. Sierra Madre", "B. Andes", "C. Appalachian", "D. Atlas"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Sweden?",
+          "options": ["A. Gothenburg", "B. Stockholm", "C. Malmo", "D. Uppsala"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the coldest place on Earth?",
+          "options": ["A. Siberia", "B. Greenland", "C. Antarctica", "D. Alaska"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Norway?",
+          "options": ["A. Bergen", "B. Stavanger", "C. Oslo", "D. Tromsø"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country has the most time zones?",
+          "options": ["A. Russia", "B. France", "C. United States", "D. Japan"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Vietnam?",
+          "options": ["A. Ho Chi Minh City", "B. Hanoi", "C. Da Nang", "D. Hai Phong"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the longest mountain range?",
+          "options": ["A. Rocky Mountains", "B. Himalayas", "C. Andes", "D. Alps"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Thailand?",
+          "options": ["A. Chiang Mai", "B. Phuket", "C. Bangkok", "D. Pattaya"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the driest inhabited place?",
+          "options": ["A. Death Valley", "B. Atacama Desert", "C. Gobi Desert", "D. Mojave Desert"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Indonesia?",
+          "options": ["A. Surabaya", "B. Bandung", "C. Jakarta", "D. Medan"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which lake is the deepest in the world?",
+          "options": ["A. Lake Tanganyika", "B. Lake Baikal", "C. Lake Superior", "D. Lake Victoria"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Philippines?",
+          "options": ["A. Cebu", "B. Davao", "C. Manila", "D. Quezon City"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is completely surrounded by water?",
+          "options": ["A. Iceland", "B. New Zealand", "C. Japan", "D. Australia"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Malaysia?",
+          "options": ["A. George Town", "B. Kuala Lumpur", "C. Ipoh", "D. Petaling Jaya"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the highest plateau in the world?",
+          "options": ["A. Colorado Plateau", "B. Tibetan Plateau", "C. Deccan Plateau", "D. Mexican Plateau"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Singapore?",
+          "options": ["A. Bishan", "B. Jurong", "C. Singapore City", "D. Chinatown"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which continent is the least populated?",
+          "options": ["A. Africa", "B. Antarctica", "C. Asia", "D. Oceania"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Pakistan?",
+          "options": ["A. Karachi", "B. Lahore", "C. Islamabad", "D. Multan"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the largest island in the world?",
+          "options": ["A. Borneo", "B. Sumatra", "C. Honshu", "D. Greenland"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Bangladesh?",
+          "options": ["A. Chittagong", "B. Khulna", "C. Dhaka", "D. Rajshahi"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which mountain is the highest in Africa?",
+          "options": ["A. Mount Kenya", "B. Kilimanjaro", "C. Atlas Mountains", "D. Drakensberg"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Myanmar?",
+          "options": ["A. Yangon", "B. Mandalay", "C. Naypyidaw", "D. Bagan"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the second largest ocean?",
+          "options": ["A. Indian Ocean", "B. Atlantic Ocean", "C. Arctic Ocean", "D. Southern Ocean"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Egypt?",
+          "options": ["A. Giza", "B. Cairo", "C. Alexandria", "D. Aswan"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country spans three continents?",
+          "options": ["A. Panama", "B. Suez Canal", "C. Russia", "D. Indonesia"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Saudi Arabia?",
+          "options": ["A. Jeddah", "B. Mecca", "C. Riyadh", "D. Medina"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which river is the second longest?",
+          "options": ["A. Yangtze", "B. Amazon", "C. Mississipi", "D. Yenisei"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of UAE?",
+          "options": ["A. Dubai", "B. Abu Dhabi", "C. Sharjah", "D. Ajman"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the largest landlocked country?",
+          "options": ["A. Kazakhstan", "B. Mongolia", "C. Botswana", "D. Zimbabwe"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Peru?",
+          "options": ["A. Cusco", "B. Lima", "C. Arequipa", "D. Trujillo"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which volcano is the most active?",
+          "options": ["A. Mount Etna", "B. Krakatoa", "C. Mount Merapi", "D. Kilauea"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Colombia?",
+          "options": ["A. Cali", "B. Bogota", "C. Medellin", "D. Cartagena"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country has the most volcanoes?",
+          "options": ["A. Indonesia", "B. Philippines", "C. Japan", "D. Mexico"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Venezuela?",
+          "options": ["A. Maracaibo", "B. Valencia", "C. Caracas", "D. Barquisimeto"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the flattest continent?",
+          "options": ["A. South America", "B. Australia", "C. Africa", "D. Europe"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Chile?",
+          "options": ["A. Valparaiso", "B. Concepcion", "C. Santiago", "D. Valdivia"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which river passes through 10 countries?",
+          "options": ["A. Rhine", "B. Danube", "C. Nile", "D. Amazon"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Ecuador?",
+          "options": ["A. Guayaquil", "B. Quito", "C. Cuenca", "D. Ambato"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is also known as the Land of the Rising Sun?",
+          "options": ["A. China", "B. Korea", "C. Japan", "D. Vietnam"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Panama?",
+          "options": ["A. Colon", "B. David", "C. Panama City", "D. San Blas"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the most landlocked region in the world?",
+          "options": ["A. Central Asia", "B. Middle East", "C. Patagonia", "D. Gobi"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Costa Rica?",
+          "options": ["A. San Jose", "B. Puerto Limon", "C. Puntarenas", "D. Cartago"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country has the word 'New' in its name?",
+          "options": ["A. New Zealand", "B. New Guinea", "C. New Caledonia", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Honduras?",
+          "options": ["A. San Pedro Sula", "B. Tegucigalpa", "C. La Ceiba", "D. Comayagua"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which desert spans 9 countries?",
+          "options": ["A. Arabian Desert", "B. Sahara Desert", "C. Kalahari Desert", "D. Gobi Desert"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Guatemala?",
+          "options": ["A. Antigua", "B. Chichicastenango", "C. Guatemala City", "D. Quetzaltenango"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is known for its fjords?",
+          "options": ["A. Sweden", "B. Denmark", "C. Norway", "D. Finland"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Nicaragua?",
+          "options": ["A. Leon", "B. Granada", "C. Managua", "D. Masaya"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the busiest sea passage in the world?",
+          "options": ["A. Suez Canal", "B. English Channel", "C. Strait of Malacca", "D. Panama Canal"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of El Salvador?",
+          "options": ["A. Santa Ana", "B. San Salvador", "C. San Miguel", "D. Sonsonate"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is the world's largest producer of coffee?",
+          "options": ["A. Colombia", "B. Vietnam", "C. Brazil", "D. Indonesia"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Ukraine?",
+          "options": ["A. Kharkiv", "B. Odesa", "C. Kyiv", "D. Lviv"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which continent has no desert?",
+          "options": ["A. Europe", "B. North America", "C. Asia", "D. South America"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Romania?",
+          "options": ["A. Iasi", "B. Bucharest", "C. Cluj-Napoca", "D. Timisoara"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the second largest country by land area?",
+          "options": ["A. United States", "B. China", "C. Canada", "D. Russia"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Croatia?",
+          "options": ["A. Split", "B. Dubrovnik", "C. Zagreb", "D. Rijeka"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is made up of 7 emirates?",
+          "options": ["A. Qatar", "B. Oman", "C. Saudi Arabia", "D. UAE"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Hungary?",
+          "options": ["A. Debrecen", "B. Budapest", "C. Szeged", "D. Pecs"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the oldest capital city in the world?",
+          "options": ["A. Rome", "B. Athens", "C. Damascus", "D. Cairo"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Czech Republic?",
+          "options": ["A. Brno", "B. Prague", "C. Ostrava", "D. Olomouc"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which state has the most borders with other states?",
+          "options": ["A. Texas", "B. Missouri", "C. Colorado", "D. New Mexico"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Slovakia?",
+          "options": ["A. Kosice", "B. Bratislava", "C. Presov", "D. Zilina"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the most densely populated country?",
+          "options": ["A. Singapore", "B. Monaco", "C. Bahrain", "D. Malta"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Bulgaria?",
+          "options": ["A. Plovdiv", "B. Varna", "C. Sofia", "D. Burgas"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is known as the 'Pearl of the Orient'?",
+          "options": ["A. Vietnam", "B. Philippines", "C. Thailand", "D. Indonesia"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Serbia?",
+          "options": ["A. Nis", "B. Subotica", "C. Belgrade", "D. Kragujevac"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which ocean is the coldest?",
+          "options": ["A. Arctic Ocean", "B. Atlantic Ocean", "C. Pacific Ocean", "D. Indian Ocean"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Lithuania?",
+          "options": ["A. Kaunas", "B. Vilnius", "C. Klaipeda", "D. Siauliai"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the largest desert in Asia?",
+          "options": ["A. Gobi Desert", "B. Taklamakan Desert", "C. Kara-Bogaz-Gol", "D. Arabian Desert"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Latvia?",
+          "options": ["A. Daugavpils", "B. Liepaja", "C. Riga", "D. Jelgava"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is home to the Great Barrier Reef?",
+          "options": ["A. New Zealand", "B. Australia", "C. Fiji", "D. Indonesia"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Estonia?",
+          "options": ["A. Tartu", "B. Tallinn", "C. Narva", "D. Parnu"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the only sea without a coastline?",
+          "options": ["A. Dead Sea", "B. Caspian Sea", "C. Sargasso Sea", "D. Red Sea"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Iceland?",
+          "options": ["A. Akureyri", "B. Reykjavik", "C. Hafnarfjorður", "D. Kopavogur"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is known for its diamonds?",
+          "options": ["A. Russia", "B. Botswana", "C. South Africa", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Slovenia?",
+          "options": ["A. Celje", "B. Maribor", "C. Ljubljana", "D. Kranj"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which river is the longest in Europe?",
+          "options": ["A. Rhine", "B. Volga", "C. Danube", "D. Vistula"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Montenegro?",
+          "options": ["A. Kotor", "B. Podgorica", "C. Cetinje", "D. Bijelo Polje"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the only country with 3 capital cities?",
+          "options": ["A. Bolivia", "B. South Africa", "C. Australia", "D. Belgium"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Luxembourg?",
+          "options": ["A. Esch-sur-Alzette", "B. Luxembourg City", "C. Differdange", "D. Diekirch"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the largest landlocked lake?",
+          "options": ["A. Lake Baikal", "B. Lake Tanganyika", "C. Caspian Sea", "D. Lake Superior"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Cyprus?",
+          "options": ["A. Limassol", "B. Nicosia", "C. Larnaca", "D. Paphos"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country is completely covered in green forest?",
+          "options": ["A. Costa Rica", "B. Brazil", "C. Papua New Guinea", "D. Belize"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Malta?",
+          "options": ["A. Sliema", "B. Valletta", "C. Mosta", "D. Rabat"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which river is considered the boundary between Europe and Asia?",
+          "options": ["A. Don", "B. Ural", "C. Volga", "D. Dnieper"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Albania?",
+          "options": ["A. Dures", "B. Tirana", "C. Vlore", "D. Elbasan"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which is the highest capital city in the world?",
+          "options": ["A. Quito", "B. La Paz", "C. Mexico City", "D. Bogota"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Macedonia?",
+          "options": ["A. Bitola", "B. Kumanovo", "C. Skopje", "D. Tetovo"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country spans the prime meridian?",
+          "options": ["A. Ghana", "B. France", "C. United Kingdom", "D. Spain"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Bosnia and Herzegovina?",
+          "options": ["A. Mostar", "B. Sarajevo", "C. Banja Luka", "D. Tuzla"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Which country has the most natural wonders?",
+          "options": ["A. Peru", "B. Brazil", "C. New Zealand", "D. United States"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Kosovo?",
+          "options": ["A. Prizren", "B. Pristina", "C. Mitrovica", "D. Gjakova"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        }
+      ]
+    },
+    {
+      "category": "History",
+      "questions": [
+        {
+          "question": "In what year did World War II end?",
+          "options": ["A. 1943", "B. 1944", "C. 1945", "D. 1946"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was the first President of the United States?",
+          "options": ["A. Thomas Jefferson", "B. George Washington", "C. John Adams", "D. Benjamin Franklin"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Titanic sink?",
+          "options": ["A. 1910", "B. 1912", "C. 1915", "D. 1920"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who invented the telephone?",
+          "options": ["A. Thomas Edison", "B. Nikola Tesla", "C. Alexander Graham Bell", "D. Charles Babbage"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the American Revolution begin?",
+          "options": ["A. 1773", "B. 1774", "C. 1775", "D. 1776"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was the first Emperor of Rome?",
+          "options": ["A. Julius Caesar", "B. Augustus", "C. Nero", "D. Caligula"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the French Revolution begin?",
+          "options": ["A. 1787", "B. 1788", "C. 1789", "D. 1790"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Napoleon Bonaparte?",
+          "options": ["A. Austrian General", "B. Russian Tsar", "C. French Military Leader", "D. German Chancellor"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did Columbus discover America?",
+          "options": ["A. 1490", "B. 1491", "C. 1492", "D. 1493"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was the first President of France?",
+          "options": ["A. Napoleon", "B. Louis XIV", "C. Louis-Napoleon", "D. De Gaulle"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Berlin Wall fall?",
+          "options": ["A. 1988", "B. 1989", "C. 1990", "D. 1991"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who wrote the Declaration of Independence?",
+          "options": ["A. George Washington", "B. Benjamin Franklin", "C. Thomas Jefferson", "D. John Adams"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did World War I begin?",
+          "options": ["A. 1912", "B. 1913", "C. 1914", "D. 1915"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was the first King of England?",
+          "options": ["A. William the Conqueror", "B. Harold Godwinson", "C. Ethelred", "D. Canute"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Russian Revolution occur?",
+          "options": ["A. 1915", "B. 1916", "C. 1917", "D. 1918"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was the first President of China?",
+          "options": ["A. Mao Zedong", "B. Sun Yat-sen", "C. Yuan Shikai", "D. Jiang Jieshi"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did India gain independence?",
+          "options": ["A. 1945", "B. 1946", "C. 1947", "D. 1948"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was the first Prime Minister of India?",
+          "options": ["A. Indira Gandhi", "B. Rajiv Gandhi", "C. Jawaharlal Nehru", "D. Sardar Patel"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the American Civil War begin?",
+          "options": ["A. 1859", "B. 1860", "C. 1861", "D. 1862"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Julius Caesar?",
+          "options": ["A. Roman Emperor", "B. Roman General and Dictator", "C. Roman Senator", "D. Roman Consul"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Chinese Revolution occur?",
+          "options": ["A. 1909", "B. 1910", "C. 1911", "D. 1912"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Cleopatra?",
+          "options": ["A. Egyptian Queen", "B. Greek Queen", "C. Roman Queen", "D. Persian Queen"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Holocaust occur?",
+          "options": ["A. 1933-1945", "B. 1940-1945", "C. 1941-1945", "D. 1942-1945"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Abraham Lincoln?",
+          "options": ["A. 16th US President", "B. 17th US President", "C. 15th US President", "D. 18th US President"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Magna Carta get signed?",
+          "options": ["A. 1213", "B. 1214", "C. 1215", "D. 1216"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Queen Victoria?",
+          "options": ["A. British Queen", "B. German Queen", "C. French Queen", "D. Russian Empress"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Spanish Armada occur?",
+          "options": ["A. 1586", "B. 1587", "C. 1588", "D. 1589"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Alexander the Great?",
+          "options": ["A. Greek King", "B. Egyptian King", "C. Macedonian King", "D. Persian King"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Hundred Years War end?",
+          "options": ["A. 1450", "B. 1451", "C. 1452", "D. 1453"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Genghis Khan?",
+          "options": ["A. Persian Ruler", "B. Arabian Ruler", "C. Mongol Ruler", "D. Turkish Ruler"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Protestant Reformation begin?",
+          "options": ["A. 1515", "B. 1516", "C. 1517", "D. 1518"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Leonardo da Vinci?",
+          "options": ["A. Italian Artist and Scientist", "B. Italian Composer", "C. Italian Writer", "D. Italian Philosopher"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did Pearl Harbor get attacked?",
+          "options": ["A. 1940", "B. 1941", "C. 1942", "D. 1943"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Michelangelo?",
+          "options": ["A. Italian Artist", "B. Italian Composer", "C. Italian Writer", "D. Italian Philosopher"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Moon landing occur?",
+          "options": ["A. 1967", "B. 1968", "C. 1969", "D. 1970"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Galileo?",
+          "options": ["A. Italian Astronomer", "B. Italian Mathematician", "C. Italian Physicist", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Berlin Blockade occur?",
+          "options": ["A. 1946", "B. 1947", "C. 1948", "D. 1949"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Isaac Newton?",
+          "options": ["A. English Mathematician", "B. English Physicist", "C. English Astronomer", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Cuban Missile Crisis occur?",
+          "options": ["A. 1960", "B. 1961", "C. 1962", "D. 1963"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Marie Curie?",
+          "options": ["A. Polish-French Chemist", "B. Polish-French Physicist", "C. Polish-French Biologist", "D. A and B"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Berlin Airlift end?",
+          "options": ["A. 1947", "B. 1948", "C. 1949", "D. 1950"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Nikola Tesla?",
+          "options": ["A. Serbian Inventor", "B. Croatian Inventor", "C. Bosnian Inventor", "D. Montenegrin Inventor"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Korean War begin?",
+          "options": ["A. 1948", "B. 1949", "C. 1950", "D. 1951"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Albert Einstein?",
+          "options": ["A. German Physicist", "B. German-American Physicist", "C. Swiss Physicist", "D. Austrian Physicist"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Vietnam War end?",
+          "options": ["A. 1973", "B. 1974", "C. 1975", "D. 1976"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Aristotle?",
+          "options": ["A. Greek Philosopher", "B. Greek Scientist", "C. Greek Logician", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Cold War end?",
+          "options": ["A. 1989", "B. 1990", "C. 1991", "D. 1992"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Plato?",
+          "options": ["A. Greek Philosopher", "B. Greek Scientist", "C. Greek Mathematician", "D. A and C"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the September 11 attacks occur?",
+          "options": ["A. 2000", "B. 2001", "C. 2002", "D. 2003"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Socrates?",
+          "options": ["A. Greek Philosopher", "B. Greek Scientist", "C. Greek Mathematician", "D. Greek Physician"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Iraq War begin?",
+          "options": ["A. 2001", "B. 2002", "C. 2003", "D. 2004"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Socrates' most famous student?",
+          "options": ["A. Plato", "B. Xenophon", "C. Aristophanes", "D. Memorabilia"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the fall of the Soviet Union occur?",
+          "options": ["A. 1989", "B. 1990", "C. 1991", "D. 1992"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Plato's most famous student?",
+          "options": ["A. Aristotle", "B. Xenocrates", "C. Speusippus", "D. Heraclides"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year was the Declaration of Human Rights adopted?",
+          "options": ["A. 1946", "B. 1947", "C. 1948", "D. 1949"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Homer?",
+          "options": ["A. Greek Poet", "B. Greek Philosopher", "C. Greek Historian", "D. Greek Scientist"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Suez Crisis occur?",
+          "options": ["A. 1954", "B. 1955", "C. 1956", "D. 1957"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Euclid?",
+          "options": ["A. Greek Mathematician", "B. Greek Astronomer", "C. Greek Philosopher", "D. Greek Physicist"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Six-Day War occur?",
+          "options": ["A. 1965", "B. 1966", "C. 1967", "D. 1968"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Archimedes?",
+          "options": ["A. Greek Mathematician", "B. Greek Physicist", "C. Greek Engineer", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Yom Kippur War occur?",
+          "options": ["A. 1971", "B. 1972", "C. 1973", "D. 1974"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Pythagoras?",
+          "options": ["A. Greek Mathematician", "B. Greek Philosopher", "C. Greek Scientist", "D. A and B"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Shah of Iran fall?",
+          "options": ["A. 1977", "B. 1978", "C. 1979", "D. 1980"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Herodotus?",
+          "options": ["A. Greek Historian", "B. Greek Geographer", "C. Greek Philosopher", "D. A and B"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Falkland Islands War occur?",
+          "options": ["A. 1980", "B. 1981", "C. 1982", "D. 1983"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Thucydides?",
+          "options": ["A. Greek Historian", "B. Greek Geographer", "C. Greek General", "D. A and C"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Chernobyl disaster occur?",
+          "options": ["A. 1984", "B. 1985", "C. 1986", "D. 1987"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Homer's most famous work?",
+          "options": ["A. The Odyssey", "B. The Iliad", "C. Both A and B", "D. The Aeneid"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Tiananmen Square protests occur?",
+          "options": ["A. 1987", "B. 1988", "C. 1989", "D. 1990"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Buddha?",
+          "options": ["A. Indian Prince", "B. Indian Philosopher", "C. Indian Spiritual Leader", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Gulf War occur?",
+          "options": ["A. 1989", "B. 1990", "C. 1991", "D. 1992"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Jesus Christ?",
+          "options": ["A. Jewish Preacher", "B. Jewish Rabbi", "C. Jewish Prophet", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Rwanda genocide occur?",
+          "options": ["A. 1992", "B. 1993", "C. 1994", "D. 1995"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Muhammad?",
+          "options": ["A. Arab Prophet", "B. Arab Leader", "C. Arab Trader", "D. A and B"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Kosovo War occur?",
+          "options": ["A. 1996", "B. 1997", "C. 1998", "D. 1999"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Martin Luther King Jr.?",
+          "options": ["A. Civil Rights Activist", "B. American Pastor", "C. American Preacher", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Srebrenica massacre occur?",
+          "options": ["A. 1992", "B. 1993", "C. 1994", "D. 1995"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "Who was Rosa Parks?",
+          "options": ["A. Civil Rights Activist", "B. American Secretary", "C. American Seamstress", "D. A and B"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In what year did the Spanish Inquisition begin?",
+          "options": ["A. 1478", "B. 1479", "C. 1480", "D. 1481"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        }
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "questions": [
+        {
+          "question": "What is the most spoken language in the world?",
+          "options": ["A. Spanish", "B. English", "C. Mandarin Chinese", "D. Hindi"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many bones does an adult human have?",
+          "options": ["A. 186", "B. 206", "C. 226", "D. 246"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest planet in our solar system?",
+          "options": ["A. Saturn", "B. Neptune", "C. Jupiter", "D. Uranus"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many continents are there?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the smallest country in the world by population?",
+          "options": ["A. Monaco", "B. San Marino", "C. Vatican City", "D. Liechtenstein"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many sides does a hexagon have?",
+          "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the capital of Australia?",
+          "options": ["A. Sydney", "B. Melbourne", "C. Canberra", "D. Brisbane"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest ocean on Earth?",
+          "options": ["A. Atlantic Ocean", "B. Indian Ocean", "C. Pacific Ocean", "D. Arctic Ocean"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for gold?",
+          "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What year did the Titanic sink?",
+          "options": ["A. 1912", "B. 1913", "C. 1914", "D. 1915"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many sides does an octagon have?",
+          "options": ["A. 6", "B. 7", "C. 8", "D. 9"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest mammal on Earth?",
+          "options": ["A. African Elephant", "B. Blue Whale", "C. Hippopotamus", "D. Giraffe"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the tallest mountain in the world?",
+          "options": ["A. K2", "B. Kangchenjunga", "C. Mount Everest", "D. Makalu"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many planets are in our solar system?",
+          "options": ["A. 7", "B. 8", "C. 9", "D. 10"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the smallest bone in the human body?",
+          "options": ["A. Stapes", "B. Malleus", "C. Incus", "D. Femur"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the deepest ocean trench?",
+          "options": ["A. Mariana Trench", "B. Tonga Trench", "C. Philippine Trench", "D. Kuril Trench"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many strings does a violin have?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for silver?",
+          "options": ["A. Si", "B. Sr", "C. Ag", "D. Al"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many sides does a triangle have?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the longest river in the world?",
+          "options": ["A. Amazon", "B. Yangtze", "C. Nile", "D. Mississipi"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many legs does an octopus have?",
+          "options": ["A. 6", "B. 8", "C. 10", "D. 12"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for carbon?",
+          "options": ["A. Ca", "B. Co", "C. C", "D. Cb"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many keys does a standard piano have?",
+          "options": ["A. 66", "B. 78", "C. 88", "D. 98"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest desert in the world?",
+          "options": ["A. Sahara", "B. Arabian", "C. Gobi", "D. Antarctic"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many sides does a square have?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the fastest animal on land?",
+          "options": ["A. Lion", "B. Gazelle", "C. Cheetah", "D. Pronghorn"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many sides does a pentagon have?",
+          "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for oxygen?",
+          "options": ["A. O", "B. Ox", "C. O2", "D. On"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many hours are in a day?",
+          "options": ["A. 20", "B. 24", "C. 28", "D. 32"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest lake in the world?",
+          "options": ["A. Lake Superior", "B. Lake Baikal", "C. Caspian Sea", "D. Lake Michigan"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many minutes are in an hour?",
+          "options": ["A. 30", "B. 50", "C. 60", "D. 70"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the coldest place on Earth?",
+          "options": ["A. Siberia", "B. Greenland", "C. Antarctica", "D. Alaska"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many months are in a year?",
+          "options": ["A. 10", "B. 11", "C. 12", "D. 13"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the hottest planet in our solar system?",
+          "options": ["A. Mercury", "B. Venus", "C. Mars", "D. Jupiter"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many seconds are in a minute?",
+          "options": ["A. 30", "B. 60", "C. 90", "D. 120"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for hydrogen?",
+          "options": ["A. H", "B. He", "C. H2", "D. Ho"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many days are in a week?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the most abundant gas in the atmosphere?",
+          "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Argon"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many wheels does a bicycle have?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for nitrogen?",
+          "options": ["A. N", "B. Ne", "C. Ni", "D. Na"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many fingers does a human have?",
+          "options": ["A. 8", "B. 10", "C. 12", "D. 14"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the fastest animal in the world?",
+          "options": ["A. Peregrine Falcon", "B. Cheetah", "C. Greyhound", "D. Springbok"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many grams are in a kilogram?",
+          "options": ["A. 100", "B. 500", "C. 1000", "D. 2000"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the smallest planet in our solar system?",
+          "options": ["A. Mercury", "B. Mars", "C. Venus", "D. Earth"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many millimeters are in a centimeter?",
+          "options": ["A. 5", "B. 10", "C. 15", "D. 20"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the most common blood type?",
+          "options": ["A. A", "B. B", "C. AB", "D. O"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many kilometers are in a mile?",
+          "options": ["A. 1.0", "B. 1.6", "C. 2.2", "D. 3.0"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest mammal on Earth?",
+          "options": ["A. African Elephant", "B. Blue Whale", "C. Hippopotamus", "D. Giraffe"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many watts are in a kilowatt?",
+          "options": ["A. 100", "B. 500", "C. 1000", "D. 2000"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the highest mountain in North America?",
+          "options": ["A. Mount Whitney", "B. Mount Denali", "C. Mount Rainier", "D. Mount Hood"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many ounces are in a pound?",
+          "options": ["A. 12", "B. 14", "C. 16", "D. 18"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the smallest ocean in the world?",
+          "options": ["A. Arctic Ocean", "B. Indian Ocean", "C. Atlantic Ocean", "D. Southern Ocean"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many milliliters are in a liter?",
+          "options": ["A. 100", "B. 500", "C. 1000", "D. 2000"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the highest waterfall in the world?",
+          "options": ["A. Niagara Falls", "B. Angel Falls", "C. Victoria Falls", "D. Yosemite Falls"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many feet are in a yard?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest island in the world?",
+          "options": ["A. Borneo", "B. Sumatra", "C. Honshu", "D. Greenland"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many degrees are in a circle?",
+          "options": ["A. 180", "B. 270", "C. 360", "D. 450"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the deepest lake in the world?",
+          "options": ["A. Lake Tanganyika", "B. Lake Baikal", "C. Lake Superior", "D. Lake Victoria"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many years are in a decade?",
+          "options": ["A. 5", "B. 10", "C. 15", "D. 20"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest country in the world by land area?",
+          "options": ["A. Canada", "B. United States", "C. Russia", "D. China"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many years are in a century?",
+          "options": ["A. 50", "B. 100", "C. 150", "D. 200"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the most populated country in the world?",
+          "options": ["A. India", "B. China", "C. United States", "D. Indonesia"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many sides does a dodecagon have?",
+          "options": ["A. 10", "B. 11", "C. 12", "D. 13"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical formula for water?",
+          "options": ["A. H2O", "B. H2O2", "C. HO", "D. H3O"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many strings does a guitar have?",
+          "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical formula for salt?",
+          "options": ["A. NaCl", "B. KCl", "C. MgCl2", "D. CaCl2"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many strings does a cello have?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical formula for glucose?",
+          "options": ["A. C6H12O6", "B. C5H12O5", "C. C7H12O7", "D. C8H12O8"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest religious building in the world?",
+          "options": ["A. St. Peter's Basilica", "B. Sagrada Familia", "C. Notre-Dame", "D. Hagia Sophia"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest stadium in the world?",
+          "options": ["A. Michigan Stadium", "B. Beaver Stadium", "C. Ohio Stadium", "D. Kyle Field"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the smallest US state?",
+          "options": ["A. Vermont", "B. New Hampshire", "C. Rhode Island", "D. Delaware"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest US state by area?",
+          "options": ["A. Texas", "B. California", "C. Montana", "D. Alaska"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the most spoken language by native speakers?",
+          "options": ["A. English", "B. Mandarin Chinese", "C. Spanish", "D. Hindi"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        }
+      ]
+    },
+    {
+      "category": "Sports",
+      "questions": [
+        {
+          "question": "How many players are on a basketball team on the court?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many players are on a soccer team?",
+          "options": ["A. 9", "B. 10", "C. 11", "D. 12"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many players are on a baseball team on the field?",
+          "options": ["A. 7", "B. 8", "C. 9", "D. 10"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many players are on a tennis team in doubles?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many holes are on a standard golf course?",
+          "options": ["A. 9", "B. 15", "C. 18", "D. 21"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the highest score in bowling?",
+          "options": ["A. 200", "B. 250", "C. 300", "D. 350"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a touchdown in American football?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many innings are in a baseball game?",
+          "options": ["A. 6", "B. 7", "C. 8", "D. 9"],
+          "correct_answer": "D",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a field goal in American football?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many rounds are in a professional boxing match?",
+          "options": ["A. 10", "B. 12", "C. 14", "D. 16"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a three-pointer in basketball?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a free throw in basketball?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many sets are in a professional tennis match?",
+          "options": ["A. 2", "B. 3", "C. 5", "D. 7"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many outs are in an inning of baseball?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many players are on a volleyball team on the court?",
+          "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a try in rugby?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many players are on an ice hockey team on the ice?",
+          "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a goal in soccer?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many athletes are on a relay running team?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many matches does a tennis player need to win to win the Grand Slam?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a basket in basketball?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a conversion in rugby?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many rounds does a round-robin tournament include?",
+          "options": ["A. Every team plays each other once", "B. Every team plays each other twice", "C. Every team plays half the teams", "D. Every team plays a quarter of the teams"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In tennis, what score is called 'deuce'?",
+          "options": ["A. 30-30", "B. 40-40", "C. 15-15", "D. Love-Love"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a penalty goal in rugby?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many innings are in a 7-inning stretch baseball game?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a penalty try in rugby?",
+          "options": ["A. 3", "B. 5", "C. 7", "D. 8"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In tennis, what is a score of 0 called?",
+          "options": ["A. Zip", "B. Nil", "C. Love", "D. Duck"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many points is a safety in American football?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many quarters are in an NBA basketball game?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many frames does a bowler get per game?",
+          "options": ["A. 8", "B. 9", "C. 10", "D. 12"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In cricket, how many batsmen are in at a time?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many balls are in a game of bingo?",
+          "options": ["A. 60", "B. 75", "C. 90", "D. 99"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport would you find a 'home run'?",
+          "options": ["A. Basketball", "B. Baseball", "C. Football", "D. Soccer"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the maximum break in snooker?",
+          "options": ["A. 100", "B. 120", "C. 147", "D. 180"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many players are on a curling team?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In badminton, how many players play singles?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In badminton, how many players play doubles?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many legs does a standard Olympic triple jump have?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport do you use a shuttlecock?",
+          "options": ["A. Tennis", "B. Badminton", "C. Squash", "D. Racquetball"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How long is an Olympic swimming pool?",
+          "options": ["A. 25 meters", "B. 50 meters", "C. 75 meters", "D. 100 meters"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many gold medals did Michael Phelps win in his Olympic career?",
+          "options": ["A. 15", "B. 18", "C. 23", "D. 28"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many pins are used in bowling?",
+          "options": ["A. 8", "B. 9", "C. 10", "D. 12"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport is the Davis Cup awarded?",
+          "options": ["A. Golf", "B. Tennis", "C. Cricket", "D. Hockey"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many players are on a lacrosse team on the field?",
+          "options": ["A. 9", "B. 10", "C. 11", "D. 12"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport is the Ryder Cup awarded?",
+          "options": ["A. Golf", "B. Tennis", "C. Cricket", "D. Hockey"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many rings are in the Olympic logo?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport is the Stanley Cup awarded?",
+          "options": ["A. American Football", "B. Hockey", "C. Basketball", "D. Baseball"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport is the Wimbledon tournament held?",
+          "options": ["A. Golf", "B. Tennis", "C. Cricket", "D. Badminton"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many strings does a badminton racket have?",
+          "options": ["A. 10", "B. 15", "C. 20", "D. 25"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport is the Masters Tournament held?",
+          "options": ["A. Golf", "B. Tennis", "C. Cricket", "D. Badminton"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many lanes are in a standard Olympic swimming pool?",
+          "options": ["A. 6", "B. 8", "C. 10", "D. 12"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport is the US Open held?",
+          "options": ["A. Golf", "B. Tennis", "C. Cricket", "D. A and B"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the diameter of a basketball hoop?",
+          "options": ["A. 12 inches", "B. 18 inches", "C. 24 inches", "D. 30 inches"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How high is a basketball hoop from the ground?",
+          "options": ["A. 8 feet", "B. 10 feet", "C. 12 feet", "D. 14 feet"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many rings do gymnasts compete in?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "In which sport is the Heineken Cup (now URC) held?",
+          "options": ["A. Basketball", "B. Rugby", "C. American Football", "D. Soccer"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the circumference of a soccer ball?",
+          "options": ["A. 25 cm", "B. 35 cm", "C. 45 cm", "D. 55 cm"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many pentathlon events are there?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many events are in the heptathlon?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many events are in the decathlon?",
+          "options": ["A. 8", "B. 9", "C. 10", "D. 12"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        }
+      ]
+    },
+    {
+      "category": "Science and Natural Sciences",
+      "questions": [
+        {
+          "question": "What is the chemical symbol for oxygen?",
+          "options": ["A. O", "B. Ox", "C. O2", "D. On"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the speed of light?",
+          "options": ["A. 200,000 km/s", "B. 300,000 km/s", "C. 400,000 km/s", "D. 500,000 km/s"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest planet in our solar system?",
+          "options": ["A. Saturn", "B. Neptune", "C. Jupiter", "D. Uranus"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for hydrogen?",
+          "options": ["A. H", "B. He", "C. H2", "D. Ho"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the smallest planet in our solar system?",
+          "options": ["A. Mercury", "B. Mars", "C. Venus", "D. Earth"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for carbon?",
+          "options": ["A. Ca", "B. Co", "C. C", "D. Cb"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the hottest planet in our solar system?",
+          "options": ["A. Mercury", "B. Venus", "C. Mars", "D. Jupiter"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for nitrogen?",
+          "options": ["A. N", "B. Ne", "C. Ni", "D. Na"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the most abundant gas in the atmosphere?",
+          "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Argon"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for gold?",
+          "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for silver?",
+          "options": ["A. Si", "B. Sr", "C. Ag", "D. Al"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical formula for water?",
+          "options": ["A. H2O", "B. H2O2", "C. HO", "D. H3O"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical formula for carbon dioxide?",
+          "options": ["A. CO", "B. CO2", "C. C2O", "D. C3O2"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for iron?",
+          "options": ["A. Ir", "B. In", "C. Fe", "D. I"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for copper?",
+          "options": ["A. Cu", "B. Co", "C. Ca", "D. Cr"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical formula for table salt?",
+          "options": ["A. NaCl", "B. KCl", "C. MgCl2", "D. CaCl2"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for lead?",
+          "options": ["A. ld", "B. Ld", "C. Pb", "D. L"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for potassium?",
+          "options": ["A. Po", "B. K", "C. Ka", "D. Pt"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for sodium?",
+          "options": ["A. So", "B. Na", "C. Sd", "D. Sm"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical symbol for calcium?",
+          "options": ["A. Ca", "B. Cl", "C. Cr", "D. Cu"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the process by which plants make their own food?",
+          "options": ["A. Respiration", "B. Fermentation", "C. Photosynthesis", "D. Digestion"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the powerhouse of a cell?",
+          "options": ["A. Nucleus", "B. Ribosome", "C. Mitochondria", "D. Chloroplast"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the basic unit of life?",
+          "options": ["A. Atom", "B. Molecule", "C. Cell", "D. Tissue"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the genetic material in cells?",
+          "options": ["A. RNA", "B. DNA", "C. Protein", "D. Lipid"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What type of organism is a mushroom?",
+          "options": ["A. Plant", "B. Animal", "C. Fungus", "D. Bacteria"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the process of converting glucose to energy?",
+          "options": ["A. Photosynthesis", "B. Digestion", "C. Respiration", "D. Fermentation"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "options": ["A. Heart", "B. Liver", "C. Brain", "D. Lung"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many bones does an adult human have?",
+          "options": ["A. 186", "B. 206", "C. 226", "D. 246"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the smallest bone in the human body?",
+          "options": ["A. Stapes", "B. Malleus", "C. Incus", "D. Femur"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many chambers does the human heart have?",
+          "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of life called?",
+          "options": ["A. Ecology", "B. Biology", "C. Anatomy", "D. Physiology"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the chemical formula for glucose?",
+          "options": ["A. C6H12O6", "B. C5H12O5", "C. C7H12O7", "D. C8H12O8"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the speed of sound in air?",
+          "options": ["A. 300 m/s", "B. 330 m/s", "C. 360 m/s", "D. 400 m/s"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the gravitational constant?",
+          "options": ["A. 6.67 × 10^-11", "B. 6.67 × 10^-10", "C. 6.67 × 10^-12", "D. 6.67 × 10^-9"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the most abundant element in the universe?",
+          "options": ["A. Oxygen", "B. Carbon", "C. Hydrogen", "D. Nitrogen"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the most abundant element in Earth's crust?",
+          "options": ["A. Iron", "B. Silica", "C. Aluminum", "D. Oxygen"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the normal body temperature of a human?",
+          "options": ["A. 35°C", "B. 37°C", "C. 39°C", "D. 41°C"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the rarest blood type?",
+          "options": ["A. O", "B. AB", "C. Rh-null", "D. A"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the distance between the Earth and the Sun called?",
+          "options": ["A. Light-year", "B. Parsec", "C. Astronomical Unit", "D. Nautical Mile"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the name of the theory of evolution?",
+          "options": ["A. Theory of Natural Selection", "B. Theory of Evolution by Natural Selection", "C. Darwinian Theory", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the pH of pure water?",
+          "options": ["A. 6", "B. 7", "C. 8", "D. 9"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the largest gland in the human body?",
+          "options": ["A. Pancreas", "B. Liver", "C. Thyroid", "D. Adrenal"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "How many chromosomes do humans have?",
+          "options": ["A. 22", "B. 23", "C. 46", "D. 48"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of fossils called?",
+          "options": ["A. Archaeology", "B. Paleontology", "C. Anthropology", "D. Geology"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of rocks called?",
+          "options": ["A. Mineralogy", "B. Petrology", "C. Geology", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of the Earth called?",
+          "options": ["A. Geology", "B. Geochemistry", "C. Geophysics", "D. A and B"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of weather called?",
+          "options": ["A. Meteorology", "B. Climatology", "C. Meteorology and Climatology", "D. Geophysics"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of the atmosphere called?",
+          "options": ["A. Meteorology", "B. Atmology", "C. Aerology", "D. A and C"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of sound called?",
+          "options": ["A. Acoustics", "B. Phonology", "C. Phonetics", "D. Acoustology"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of light called?",
+          "options": ["A. Optics", "B. Photology", "C. Luminology", "D. Phototography"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of electricity called?",
+          "options": ["A. Electrology", "B. Electricity", "C. Electrokinetics", "D. Electromagnetism"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of magnetism called?",
+          "options": ["A. Magnetology", "B. Magnetism", "C. Electromagnetics", "D. Magnetics"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of heat called?",
+          "options": ["A. Thermology", "B. Thermodynamics", "C. Calorimetry", "D. B and C"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What is the study of motion called?",
+          "options": ["A. Kinematics", "B. Dynamics", "C. Mechanics", "D. All of the above"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        }
+      ]
+    },
+    {
+      "category": "Logic and Puzzles",
+      "questions": [
+        {
+          "question": "If you have 2 apples and 3 oranges, how many pieces of fruit do you have?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 2, 4, 6, 8, ?",
+          "options": ["A. 9", "B. 10", "C. 12", "D. 14"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 1, 2, 3, 5, 8, ?",
+          "options": ["A. 10", "B. 11", "C. 12", "D. 13"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 3, 6, 9, 12, ?",
+          "options": ["A. 13", "B. 14", "C. 15", "D. 16"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If all cats are animals and all animals breathe, then all cats breathe. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 4, 9, 16, ?",
+          "options": ["A. 20", "B. 25", "C. 30", "D. 35"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If A is taller than B and B is taller than C, then A is taller than C. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 2, 3, 5, 7, 11, ?",
+          "options": ["A. 13", "B. 14", "C. 15", "D. 16"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If some birds can fly and all robins are birds, then all robins can fly. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 5, 10, 20, 40, ?",
+          "options": ["A. 60", "B. 70", "C. 80", "D. 90"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "A number is doubled and then 10 is subtracted. The result is 14. What is the original number?",
+          "options": ["A. 10", "B. 11", "C. 12", "D. 13"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 2, 4, 8, 16, ?",
+          "options": ["A. 24", "B. 32", "C. 40", "D. 48"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If I have 10 apples and I eat 2, how many do I have left?",
+          "options": ["A. 6", "B. 7", "C. 8", "D. 9"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 10, 20, 30, 40, ?",
+          "options": ["A. 45", "B. 50", "C. 55", "D. 60"],
+          "correct_answer": "B",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If all roses are flowers and all flowers are plants, then all roses are plants. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 100, 50, 25, 12.5, ?",
+          "options": ["A. 5", "B. 5.25", "C. 6", "D. 6.25"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "A number is multiplied by 3 and then 5 is added. The result is 20. What is the original number?",
+          "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 3, 6, 10, 15, ?",
+          "options": ["A. 18", "B. 19", "C. 20", "D. 21"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If all men are mortal and Socrates is a man, then Socrates is mortal. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 2, 6, 12, 20, ?",
+          "options": ["A. 28", "B. 29", "C. 30", "D. 31"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "A number is divided by 2 and then 3 is subtracted. The result is 4. What is the original number?",
+          "options": ["A. 10", "B. 12", "C. 14", "D. 16"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 4, 9, 16, 25, ?",
+          "options": ["A. 30", "B. 35", "C. 36", "D. 40"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If it is not raining, then it is sunny. It is not sunny. Therefore, it is raining. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 8, 27, 64, ?",
+          "options": ["A. 100", "B. 125", "C. 150", "D. 200"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If A = B and B = C, then A = C. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 0, 1, 1, 2, 3, 5, 8, ?",
+          "options": ["A. 11", "B. 12", "C. 13", "D. 14"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If all dogs are animals and Fido is a dog, then Fido is an animal. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 2, 4, 8, 16, 32, ?",
+          "options": ["A. 48", "B. 60", "C. 64", "D. 100"],
+          "correct_answer": "C",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If some computers are fast and all computers are machines, then some machines are fast. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 2, 3, 5, 8, 13, ?",
+          "options": ["A. 16", "B. 18", "C. 20", "D. 21"],
+          "correct_answer": "D",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "A box contains 5 red balls and 3 blue balls. If you pick one ball at random, what is the probability it is red?",
+          "options": ["A. 3/8", "B. 5/8", "C. 1/2", "D. 2/3"],
+          "correct_answer": "B",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 3, 5, 8, 12, 17, ?",
+          "options": ["A. 20", "B. 22", "C. 23", "D. 25"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If all fruits are foods and all foods are organic, then all fruits are organic. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 11, 21, 31, ?",
+          "options": ["A. 35", "B. 40", "C. 41", "D. 45"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If A is west of B and B is west of C, then A is west of C. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 10, 11, 13, 16, 20, ?",
+          "options": ["A. 22", "B. 23", "C. 24", "D. 25"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If no cats are dogs and all dogs are animals, then no cats are animals. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "B",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 2, 4, 7, 11, ?",
+          "options": ["A. 14", "B. 15", "C. 16", "D. 17"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "A bag contains 4 green balls, 3 red balls, and 2 blue balls. If you pick one ball at random, what is the probability it is green?",
+          "options": ["A. 2/9", "B. 3/9", "C. 4/9", "D. 5/9"],
+          "correct_answer": "C",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 2, 3, 5, 8, 13, ?",
+          "options": ["A. 18", "B. 20", "C. 21", "D. 25"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If all squares are rectangles and all rectangles are quadrilaterals, then all squares are quadrilaterals. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 5, 6, 8, 11, 15, ?",
+          "options": ["A. 18", "B. 19", "C. 20", "D. 21"],
+          "correct_answer": "C",
+          "difficulty": "Medium",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "If all teenagers are people and all people sleep, then all teenagers sleep. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A",
+          "difficulty": "Easy",
+          "game_type": "Standard Quiz"
+        },
+        {
+          "question": "What comes next: 1, 3, 7, 15, 31, ?",
+          "options": ["A. 47", "B. 50", "C. 60", "D. 63"],
+          "correct_answer": "D",
+          "difficulty": "Hard",
+          "game_type": "Standard Quiz"
+        }
+      ]
+    }
+  ]
+}
