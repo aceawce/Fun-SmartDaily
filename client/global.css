@@ -103,8 +103,13 @@
     @apply border-border;
   }
 
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "rounding" 1;
   }
 
   :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
@@ -116,5 +121,16 @@
   code {
     overflow-x: auto;
     white-space: pre;
+  }
+
+  /* Smooth transitions */
+  button,
+  a {
+    @apply transition-all duration-200;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-primary text-primary-foreground;
   }
 }
