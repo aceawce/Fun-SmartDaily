@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ArrowLeft, Check, X, RotateCcw } from "lucide-react";
+import { ArrowLeft, Check, X, Trophy } from "lucide-react";
 
 interface Question {
   question: string;
@@ -37,7 +37,6 @@ export default function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [points, setPoints] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [showResult, setShowResult] = useState(false);
   const [feedbackMessage, setFeedbackMessage] = useState<"correct" | "wrong" | null>(null);
   const [loading, setLoading] = useState(true);
   const [quizComplete, setQuizComplete] = useState(false);
@@ -131,7 +130,6 @@ export default function Quiz() {
       saveProgress(currentQuestion, newPoints, newAttempted);
     } else {
       setFeedbackMessage("wrong");
-      setShowResult(true);
     }
   };
 
@@ -140,38 +138,14 @@ export default function Quiz() {
       const newQuestion = currentQuestion + 1;
       setCurrentQuestion(newQuestion);
       setSelectedAnswer(null);
-      setShowResult(false);
       setFeedbackMessage(null);
       saveProgress(newQuestion, points, attemptedQuestions);
     } else {
       setQuizComplete(true);
-      clearQuizProgress();
-    }
-  };
-
-  const handleResetGame = () => {
-    if (window.confirm("Are you sure you want to reset your progress? This will clear all your points.")) {
-      setCurrentQuestion(0);
-      setPoints(0);
-      setSelectedAnswer(null);
-      setShowResult(false);
-      setFeedbackMessage(null);
-      setAttemptedQuestions(new Set());
-      setQuizComplete(false);
-      clearQuizProgress();
-    }
-  };
-
-  const clearQuizProgress = () => {
-    try {
-      localStorage.removeItem(STORAGE_KEY);
-    } catch (error) {
-      console.error("Error clearing progress:", error);
     }
   };
 
   const handleBackToHome = () => {
-    clearQuizProgress();
     navigate("/");
   };
 
@@ -186,16 +160,69 @@ export default function Quiz() {
     );
   }
 
+  // Full Success Screen - shown when user answers correctly
+  if (feedbackMessage === "correct") {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-primary/10 via-background to-secondary/10 flex items-center justify-center p-4">
+        <div className="text-center max-w-md">
+          {/* Trophy Icon - animated bounce */}
+          <div className="mb-6 flex justify-center">
+            <div className="animate-bounce">
+              <Trophy className="w-24 h-24 text-yellow-500" />
+            </div>
+          </div>
+
+          {/* Success Message */}
+          <h2 className="text-4xl font-bold text-foreground mb-2">Completed ✅</h2>
+          <p className="text-lg text-muted-foreground mb-6">Well done!</p>
+
+          {/* Points Display */}
+          <Card className="p-6 mb-8 border-0 shadow-xl bg-card">
+            <p className="text-sm text-muted-foreground mb-2">Points Earned</p>
+            <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+              +10
+            </div>
+          </Card>
+
+          {/* Progress Info */}
+          <div className="mb-6 text-center">
+            <p className="text-sm text-muted-foreground">
+              Question {currentQuestion + 1} of {quizData.length}
+            </p>
+            <p className="text-2xl font-bold text-foreground mt-2">
+              Total Points: <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{points}</span>
+            </p>
+          </div>
+
+          {/* Loading Indicator for Auto-progression */}
+          <div className="flex justify-center mb-6">
+            <div className="text-center">
+              <div className="inline-block">
+                <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-primary"></div>
+              </div>
+              <p className="text-xs text-muted-foreground mt-2">Moving to next question...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (quizComplete) {
     const percentage = Math.round((points / (quizData.length * 10)) * 100);
     return (
       <div className="min-h-screen bg-gradient-to-br from-primary/10 via-background to-secondary/10 flex items-center justify-center p-4">
         <Card className="w-full max-w-md p-8 text-center border-0 shadow-xl">
+          {/* Trophy Icon */}
+          <div className="mb-6 flex justify-center">
+            <Trophy className="w-20 h-20 text-yellow-500" />
+          </div>
+
           <div className="mb-6">
             <div className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary mb-4">
               {percentage}%
             </div>
-            <h2 className="text-2xl font-bold text-foreground mb-2">{category} Quiz Complete! ✅</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-2">Quiz Complete! ✅</h2>
             <p className="text-muted-foreground">
               You earned <span className="font-bold text-primary">{points} points</span> out of {quizData.length * 10}
             </p>
@@ -211,14 +238,9 @@ export default function Quiz() {
             </p>
           </div>
 
-          <div className="flex gap-3">
-            <Button onClick={handleBackToHome} variant="outline" className="flex-1">
-              Back to Home
-            </Button>
-            <Button onClick={handleResetGame} className="flex-1">
-              Try Again
-            </Button>
-          </div>
+          <Button onClick={handleBackToHome} className="w-full">
+            Back to Home
+          </Button>
         </Card>
       </div>
     );
@@ -245,24 +267,13 @@ export default function Quiz() {
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="mb-8">
-          <div className="flex items-center justify-between mb-6">
-            <button
-              onClick={handleBackToHome}
-              className="flex items-center gap-2 text-primary hover:text-secondary transition-colors"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              Back
-            </button>
-            <Button
-              onClick={handleResetGame}
-              variant="outline"
-              size="sm"
-              className="flex items-center gap-2"
-            >
-              <RotateCcw className="w-4 h-4" />
-              Reset
-            </Button>
-          </div>
+          <button
+            onClick={handleBackToHome}
+            className="flex items-center gap-2 text-primary hover:text-secondary transition-colors mb-6"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back
+          </button>
 
           <div className="flex justify-between items-center mb-4">
             <h1 className="text-3xl font-bold text-foreground">{category}</h1>
@@ -345,61 +356,22 @@ export default function Quiz() {
           </div>
         </Card>
 
-        {/* Feedback Message */}
-        {feedbackMessage && (
-          <div className="space-y-4 mb-4">
-            <div
-              className={cn(
-                "p-4 rounded-lg text-center font-semibold text-lg animate-in fade-in duration-300",
-                feedbackMessage === "correct"
-                  ? "bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-200"
-                  : "bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-200"
-              )}
-            >
-              {feedbackMessage === "correct" ? "Well done! ✅" : "Try again ❌"}
-            </div>
-            {feedbackMessage === "correct" && (
-              <p className="text-center text-sm text-muted-foreground">
-                You earned 10 points! Moving to next question...
-              </p>
-            )}
-          </div>
-        )}
-
-        {/* Action Buttons - Only show for wrong answers */}
+        {/* Feedback Message - Only for wrong answers */}
         {feedbackMessage === "wrong" && (
           <div className="space-y-4">
+            <div className="p-4 rounded-lg text-center font-semibold text-lg bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-200 animate-in fade-in duration-300">
+              Try again ❌
+            </div>
             <Button
               onClick={() => {
                 setSelectedAnswer(null);
-                setShowResult(false);
                 setFeedbackMessage(null);
               }}
               className="w-full"
               size="lg"
-              variant="outline"
             >
               Try Another Answer
             </Button>
-            <Button
-              onClick={handleNextQuestion}
-              className="w-full"
-              size="lg"
-              variant="secondary"
-            >
-              {currentQuestion === quizData.length - 1 ? "See Results" : "Skip to Next"}
-            </Button>
-          </div>
-        )}
-
-        {/* Auto-progress indicator for correct answers */}
-        {feedbackMessage === "correct" && (
-          <div className="flex justify-center">
-            <div className="text-center">
-              <div className="inline-block">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
-              </div>
-            </div>
           </div>
         )}
       </div>
