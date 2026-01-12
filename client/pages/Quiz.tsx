@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ArrowLeft, Check, X } from "lucide-react";
+import { ArrowLeft, Check, X, RotateCcw } from "lucide-react";
 
 interface Question {
   question: string;
@@ -21,18 +21,30 @@ interface QuizData {
   }>;
 }
 
+interface QuizProgress {
+  category: string;
+  currentQuestion: number;
+  points: number;
+  attemptedQuestions: Set<number>;
+}
+
+const STORAGE_KEY = "quiz_progress";
+
 export default function Quiz() {
   const { category } = useParams<{ category: string }>();
   const navigate = useNavigate();
   const [quizData, setQuizData] = useState<Question[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [score, setScore] = useState(0);
+  const [points, setPoints] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
+  const [feedbackMessage, setFeedbackMessage] = useState<"correct" | "wrong" | null>(null);
   const [loading, setLoading] = useState(true);
   const [quizComplete, setQuizComplete] = useState(false);
-  const [answers, setAnswers] = useState<Array<{ selected: string; correct: string }>>([]);
+  const [attemptedQuestions, setAttemptedQuestions] = useState<Set<number>>(new Set());
+  const [autoProgressTimer, setAutoProgressTimer] = useState<NodeJS.Timeout | null>(null);
 
+  // Load quiz data and restore progress
   useEffect(() => {
     const loadQuizData = async () => {
       try {
@@ -41,6 +53,8 @@ export default function Quiz() {
         const categoryData = data.categories.find((c) => c.category === category);
         if (categoryData) {
           setQuizData(categoryData.questions);
+          // Restore progress from localStorage
+          restoreProgress(category);
         }
         setLoading(false);
       } catch (error) {
@@ -52,35 +66,112 @@ export default function Quiz() {
     loadQuizData();
   }, [category]);
 
-  const handleAnswerSelect = (option: string) => {
-    if (!showResult) {
-      setSelectedAnswer(option);
-      const isCorrect = option === quizData[currentQuestion].correct_answer;
-      setShowResult(true);
-      if (isCorrect) {
-        setScore(score + 1);
+  // Auto-progress to next question after correct answer
+  useEffect(() => {
+    if (feedbackMessage === "correct" && !autoProgressTimer) {
+      const timer = setTimeout(() => {
+        handleNextQuestion();
+      }, 1500); // 1.5 seconds
+      setAutoProgressTimer(timer);
+    }
+
+    return () => {
+      if (autoProgressTimer) {
+        clearTimeout(autoProgressTimer);
+        setAutoProgressTimer(null);
       }
-      setAnswers([
-        ...answers,
-        {
-          selected: option,
-          correct: quizData[currentQuestion].correct_answer,
-        },
-      ]);
+    };
+  }, [feedbackMessage]);
+
+  const restoreProgress = (categoryName: string | undefined) => {
+    if (!categoryName) return;
+
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const progress: QuizProgress = JSON.parse(saved);
+        if (progress.category === categoryName) {
+          setCurrentQuestion(progress.currentQuestion);
+          setPoints(progress.points);
+          setAttemptedQuestions(new Set(progress.attemptedQuestions));
+        }
+      }
+    } catch (error) {
+      console.error("Error restoring progress:", error);
     }
   };
 
-  const handleNext = () => {
+  const saveProgress = (questionIndex: number, newPoints: number, attempted: Set<number>) => {
+    try {
+      const progress: QuizProgress = {
+        category: category || "",
+        currentQuestion: questionIndex,
+        points: newPoints,
+        attemptedQuestions: Array.from(attempted),
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    } catch (error) {
+      console.error("Error saving progress:", error);
+    }
+  };
+
+  const handleAnswerSelect = (option: string) => {
+    if (selectedAnswer !== null) return; // Already answered this question
+
+    setSelectedAnswer(option);
+    const isCorrect = option === quizData[currentQuestion].correct_answer;
+
+    if (isCorrect) {
+      setFeedbackMessage("correct");
+      const newPoints = points + 10;
+      setPoints(newPoints);
+      const newAttempted = new Set(attemptedQuestions);
+      newAttempted.add(currentQuestion);
+      setAttemptedQuestions(newAttempted);
+      saveProgress(currentQuestion, newPoints, newAttempted);
+    } else {
+      setFeedbackMessage("wrong");
+      setShowResult(true);
+    }
+  };
+
+  const handleNextQuestion = () => {
     if (currentQuestion < quizData.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
+      const newQuestion = currentQuestion + 1;
+      setCurrentQuestion(newQuestion);
       setSelectedAnswer(null);
       setShowResult(false);
+      setFeedbackMessage(null);
+      saveProgress(newQuestion, points, attemptedQuestions);
     } else {
       setQuizComplete(true);
+      clearQuizProgress();
+    }
+  };
+
+  const handleResetGame = () => {
+    if (window.confirm("Are you sure you want to reset your progress? This will clear all your points.")) {
+      setCurrentQuestion(0);
+      setPoints(0);
+      setSelectedAnswer(null);
+      setShowResult(false);
+      setFeedbackMessage(null);
+      setAttemptedQuestions(new Set());
+      setQuizComplete(false);
+      clearQuizProgress();
+    }
+  };
+
+  const clearQuizProgress = () => {
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch (error) {
+      console.error("Error clearing progress:", error);
     }
   };
 
   const handleBackToHome = () => {
+    clearQuizProgress();
     navigate("/");
   };
 
@@ -96,7 +187,7 @@ export default function Quiz() {
   }
 
   if (quizComplete) {
-    const percentage = Math.round((score / quizData.length) * 100);
+    const percentage = Math.round((points / (quizData.length * 10)) * 100);
     return (
       <div className="min-h-screen bg-gradient-to-br from-primary/10 via-background to-secondary/10 flex items-center justify-center p-4">
         <Card className="w-full max-w-md p-8 text-center border-0 shadow-xl">
@@ -104,13 +195,13 @@ export default function Quiz() {
             <div className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary mb-4">
               {percentage}%
             </div>
-            <h2 className="text-2xl font-bold text-foreground mb-2">{category} Quiz Complete!</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-2">{category} Quiz Complete! ✅</h2>
             <p className="text-muted-foreground">
-              You scored {score} out of {quizData.length} points
+              You earned <span className="font-bold text-primary">{points} points</span> out of {quizData.length * 10}
             </p>
           </div>
 
-          <div className="mb-6">
+          <div className="mb-8">
             <p className="text-sm text-muted-foreground mb-4">
               {percentage >= 80
                 ? "🎉 Excellent performance!"
@@ -120,9 +211,14 @@ export default function Quiz() {
             </p>
           </div>
 
-          <Button onClick={handleBackToHome} className="w-full" size="lg">
-            Back to Home
-          </Button>
+          <div className="flex gap-3">
+            <Button onClick={handleBackToHome} variant="outline" className="flex-1">
+              Back to Home
+            </Button>
+            <Button onClick={handleResetGame} className="flex-1">
+              Try Again
+            </Button>
+          </div>
         </Card>
       </div>
     );
@@ -149,19 +245,30 @@ export default function Quiz() {
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="mb-8">
-          <button
-            onClick={handleBackToHome}
-            className="flex items-center gap-2 text-primary hover:text-secondary transition-colors mb-6"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back
-          </button>
+          <div className="flex items-center justify-between mb-6">
+            <button
+              onClick={handleBackToHome}
+              className="flex items-center gap-2 text-primary hover:text-secondary transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Back
+            </button>
+            <Button
+              onClick={handleResetGame}
+              variant="outline"
+              size="sm"
+              className="flex items-center gap-2"
+            >
+              <RotateCcw className="w-4 h-4" />
+              Reset
+            </Button>
+          </div>
 
           <div className="flex justify-between items-center mb-4">
             <h1 className="text-3xl font-bold text-foreground">{category}</h1>
             <div className="text-right">
-              <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-                {score}/{quizData.length}
+              <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+                {points}
               </div>
               <p className="text-sm text-muted-foreground">Points</p>
             </div>
@@ -209,27 +316,28 @@ export default function Quiz() {
               const isSelected = selectedAnswer === optionLetter;
               const isCorrect = optionLetter === question.correct_answer;
               const isWrong = isSelected && optionLetter !== question.correct_answer;
+              const isDisabled = selectedAnswer !== null;
 
               return (
                 <button
                   key={index}
                   onClick={() => handleAnswerSelect(optionLetter)}
-                  disabled={showResult}
+                  disabled={isDisabled}
                   className={cn(
                     "w-full p-4 text-left rounded-lg border-2 transition-all font-medium",
-                    !showResult && "hover:border-primary cursor-pointer",
-                    showResult && "cursor-default",
-                    !isSelected && !showResult && "border-border hover:border-primary/50",
-                    isSelected && !showResult && "border-primary bg-primary/5",
-                    showResult && isCorrect && "border-green-500 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-200",
-                    showResult && isWrong && "border-red-500 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-200",
-                    showResult && !isSelected && !isCorrect && "border-border opacity-50"
+                    !isDisabled && "hover:border-primary cursor-pointer",
+                    isDisabled && "cursor-default",
+                    !isSelected && !isDisabled && "border-border hover:border-primary/50",
+                    isSelected && !isDisabled && "border-primary bg-primary/5",
+                    isSelected && isCorrect && "border-green-500 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-200 ring-2 ring-green-400",
+                    isSelected && isWrong && "border-red-500 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-200 ring-2 ring-red-400",
+                    isDisabled && !isSelected && !isCorrect && "border-border opacity-50"
                   )}
                 >
                   <div className="flex items-center justify-between">
                     <span>{option}</span>
-                    {showResult && isCorrect && <Check className="w-5 h-5 text-green-600 dark:text-green-400" />}
-                    {showResult && isWrong && <X className="w-5 h-5 text-red-600 dark:text-red-400" />}
+                    {isSelected && isCorrect && <Check className="w-5 h-5 text-green-600 dark:text-green-400 animate-pulse" />}
+                    {isSelected && isWrong && <X className="w-5 h-5 text-red-600 dark:text-red-400 animate-pulse" />}
                   </div>
                 </button>
               );
@@ -237,22 +345,61 @@ export default function Quiz() {
           </div>
         </Card>
 
-        {/* Result Message and Next Button */}
-        {showResult && (
-          <div className="space-y-4">
+        {/* Feedback Message */}
+        {feedbackMessage && (
+          <div className="space-y-4 mb-4">
             <div
               className={cn(
-                "p-4 rounded-lg text-center font-semibold",
-                selectedAnswer === question.correct_answer
+                "p-4 rounded-lg text-center font-semibold text-lg animate-in fade-in duration-300",
+                feedbackMessage === "correct"
                   ? "bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-200"
                   : "bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-200"
               )}
             >
-              {selectedAnswer === question.correct_answer ? "✓ Correct!" : "✗ Incorrect!"}
+              {feedbackMessage === "correct" ? "Well done! ✅" : "Try again ❌"}
             </div>
-            <Button onClick={handleNext} className="w-full" size="lg">
-              {currentQuestion === quizData.length - 1 ? "See Results" : "Next Question"}
+            {feedbackMessage === "correct" && (
+              <p className="text-center text-sm text-muted-foreground">
+                You earned 10 points! Moving to next question...
+              </p>
+            )}
+          </div>
+        )}
+
+        {/* Action Buttons - Only show for wrong answers */}
+        {feedbackMessage === "wrong" && (
+          <div className="space-y-4">
+            <Button
+              onClick={() => {
+                setSelectedAnswer(null);
+                setShowResult(false);
+                setFeedbackMessage(null);
+              }}
+              className="w-full"
+              size="lg"
+              variant="outline"
+            >
+              Try Another Answer
             </Button>
+            <Button
+              onClick={handleNextQuestion}
+              className="w-full"
+              size="lg"
+              variant="secondary"
+            >
+              {currentQuestion === quizData.length - 1 ? "See Results" : "Skip to Next"}
+            </Button>
+          </div>
+        )}
+
+        {/* Auto-progress indicator for correct answers */}
+        {feedbackMessage === "correct" && (
+          <div className="flex justify-center">
+            <div className="text-center">
+              <div className="inline-block">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+              </div>
+            </div>
           </div>
         )}
       </div>
