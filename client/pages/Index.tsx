@@ -93,26 +93,27 @@ export default function Index() {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {categories.map((category) => {
             const Icon = category.icon;
             return (
               <Link key={category.id} to={`/quiz/${category.id}`}>
-                <Card className="group h-full p-0 overflow-hidden border-2 border-primary/30 shadow-xl hover:shadow-2xl hover:border-primary/60 transition-all duration-300 hover:scale-105 cursor-pointer bg-card-gradient backdrop-blur">
+                <Card className="group h-full overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 cursor-pointer bg-white">
                   {/* Icon Background */}
-                  <div className={`h-24 bg-gradient-to-br ${category.iconGradient} opacity-15 group-hover:opacity-25 transition-opacity`}></div>
+                  <div className={`h-32 ${category.iconBg} flex items-center justify-center relative overflow-hidden`}>
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-br from-white to-black transition-opacity"></div>
+                    <div className={`${category.iconColor} transform group-hover:scale-125 transition-transform duration-300`}>
+                      <Icon className="w-16 h-16" strokeWidth={1.5} />
+                    </div>
+                  </div>
 
                   {/* Content */}
-                  <div className="relative p-6 -mt-12">
-                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${category.iconGradient} flex items-center justify-center mb-4 text-white shadow-xl transform group-hover:scale-110 transition-transform`}>
-                      <Icon className="w-8 h-8" />
-                    </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-foreground mb-3">{category.name}</h3>
+                    <p className="text-sm text-foreground/70 mb-6 line-clamp-2">{category.description}</p>
 
-                    <h3 className="text-2xl font-bold text-foreground mb-2">{category.name}</h3>
-                    <p className="text-sm text-foreground/70 mb-6 line-clamp-2 font-medium">{category.description}</p>
-
-                    <div className="flex items-center justify-between pt-4 border-t border-primary/20">
-                      <span className="text-sm font-bold text-primary">{category.count} Questions</span>
+                    <div className="flex items-center justify-between pt-4 border-t border-gray-200">
+                      <span className="text-sm font-semibold text-primary">{category.count} Questions</span>
                       <Button
                         variant="ghost"
                         size="sm"
