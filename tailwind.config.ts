@@ -64,8 +64,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       backgroundImage: {
-        "luxurious-gradient": "linear-gradient(135deg, hsl(39 100% 86%) 0%, hsl(37 100% 88%) 50%, hsl(39 100% 90%) 100%)",
-        "card-gradient": "linear-gradient(135deg, hsl(39 100% 92%) 0%, hsl(37 100% 93%) 100%)",
+        "luxurious-gradient": "linear-gradient(135deg, hsl(39 100% 96%) 0%, hsl(37 100% 96%) 50%, hsl(39 100% 97%) 100%)",
+        "card-gradient": "linear-gradient(135deg, hsl(39 100% 98%) 0%, hsl(37 100% 97%) 100%)",
         "primary-to-secondary": "linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%)",
       },
       keyframes: {
