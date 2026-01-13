@@ -9,7 +9,8 @@ const categories = [
     name: "Geography",
     description: "Test your knowledge about capitals, countries, maps, rivers, and mountains.",
     icon: Globe,
-    iconGradient: "from-amber-600 to-yellow-500",
+    iconColor: "text-blue-600",
+    iconBg: "bg-blue-100",
     count: 200,
   },
   {
@@ -17,7 +18,8 @@ const categories = [
     name: "History",
     description: "Explore historical events, famous figures, civilizations, and discoveries.",
     icon: BookOpen,
-    iconGradient: "from-amber-700 to-amber-600",
+    iconColor: "text-red-600",
+    iconBg: "bg-red-100",
     count: 200,
   },
   {
@@ -25,7 +27,8 @@ const categories = [
     name: "General Knowledge",
     description: "Fun facts, inventions, and diverse trivia from across the world.",
     icon: Lightbulb,
-    iconGradient: "from-yellow-600 to-amber-500",
+    iconColor: "text-yellow-600",
+    iconBg: "bg-yellow-100",
     count: 200,
   },
   {
@@ -33,7 +36,8 @@ const categories = [
     name: "Sports",
     description: "Team and individual sports, Olympics, and famous athletes.",
     icon: Trophy,
-    iconGradient: "from-amber-600 to-yellow-600",
+    iconColor: "text-orange-600",
+    iconBg: "bg-orange-100",
     count: 200,
   },
   {
@@ -41,7 +45,8 @@ const categories = [
     name: "Science & Nature",
     description: "Physics, chemistry, biology, space, and technology.",
     icon: Microscope,
-    iconGradient: "from-amber-700 to-yellow-600",
+    iconColor: "text-green-600",
+    iconBg: "bg-green-100",
     count: 200,
   },
   {
@@ -49,7 +54,8 @@ const categories = [
     name: "Logic & Puzzles",
     description: "Brain teasers, math puzzles, and logic problems.",
     icon: Brain,
-    iconGradient: "from-yellow-600 to-amber-600",
+    iconColor: "text-purple-600",
+    iconBg: "bg-purple-100",
     count: 200,
   },
 ];
