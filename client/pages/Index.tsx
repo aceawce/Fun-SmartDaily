@@ -56,7 +56,7 @@ const categories = [
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-luxurious-gradient">
+    <div className="min-h-screen bg-luxurious-gradient" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b-2 border-primary/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
