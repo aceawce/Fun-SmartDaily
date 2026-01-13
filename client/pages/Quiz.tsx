@@ -164,7 +164,7 @@ export default function Quiz() {
   // Full Success Screen - shown when user answers correctly
   if (feedbackMessage === "correct") {
     return (
-      <div className="min-h-screen bg-luxurious-gradient flex items-center justify-center p-4">
+      <div className="min-h-screen flex items-center justify-center p-4" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
         <div className="text-center max-w-2xl">
           {/* Trophy Animation */}
           <div className="mb-8 flex justify-center">
