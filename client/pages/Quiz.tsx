@@ -286,7 +286,7 @@ export default function Quiz() {
   const progress = ((currentQuestion + 1) / quizData.length) * 100;
 
   return (
-    <div className="min-h-screen bg-luxurious-gradient p-4 sm:p-6">
+    <div className="min-h-screen p-4 sm:p-6" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
       <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="mb-8">
