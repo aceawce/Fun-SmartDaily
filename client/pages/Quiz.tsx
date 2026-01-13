@@ -271,7 +271,7 @@ export default function Quiz() {
 
   if (quizData.length === 0) {
     return (
-      <div className="min-h-screen bg-luxurious-gradient flex items-center justify-center p-4">
+      <div className="min-h-screen flex items-center justify-center p-4" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
         <Card className="w-full max-w-md p-8 border-2 border-primary/40 shadow-xl bg-card-gradient backdrop-blur text-center">
           <p className="text-foreground mb-6 font-semibold text-lg">Quiz data not found</p>
           <Button onClick={handleBackToHome} className="w-full">
