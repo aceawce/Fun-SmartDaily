@@ -151,7 +151,7 @@ export default function Quiz() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-luxurious-gradient flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
         <div className="text-center">
           <div className="animate-spin rounded-full h-16 w-16 border-4 border-primary/30 border-t-primary mx-auto mb-6"></div>
           <p className="text-foreground text-xl font-bold">Loading your quiz...</p>
