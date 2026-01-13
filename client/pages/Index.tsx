@@ -58,7 +58,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-luxurious-gradient" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
       {/* Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b-2 border-primary/30">
+      <header className="sticky top-0 z-50 backdrop-blur-md border-b-2 border-primary/30" style={{backgroundColor: "hsl(39, 100%, 94%)"}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg">
