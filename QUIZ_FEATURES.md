@@ -1,17 +1,21 @@
 # Enhanced Quiz Application - Feature Documentation
 
 ## Overview
+
 The Quiz application has been enhanced with persistence, intelligent feedback, and an improved user experience. All modifications are applied to the existing quiz system.
 
 ## ✨ Implemented Features
 
 ### 1. **Individual Question Screens**
+
 - Each question displays on its own screen with no question mixing
 - Clean, focused layout with one question and four multiple-choice options (A, B, C, D)
 - Smooth transitions between questions
 
 ### 2. **Correct Answer Behavior**
+
 **When user selects the correct answer:**
+
 - ✅ Display message: **"Well done! ✅"**
 - 📈 Award **10 points** per correct answer
 - ⏱️ Automatically move to next question after **1.5 seconds**
@@ -19,12 +23,15 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
 - 💾 Save progress immediately to localStorage
 
 **Visual Feedback:**
+
 - Green highlight on correct answer with checkmark icon (✓)
 - Correct answer pulses with animation
 - Auto-progression with spinner indicator
 
 ### 3. **Wrong Answer Behavior**
+
 **When user selects an incorrect answer:**
+
 - ❌ Display message: **"Try again ❌"**
 - 🔄 Keep user on the same question
 - 🤐 Do NOT reveal the correct answer
@@ -33,11 +40,13 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
   - **"Skip to Next"** - Move to next question without earning points
 
 **Visual Feedback:**
+
 - Red highlight on selected wrong answer with X icon (✗)
 - Wrong answer pulses with animation
 - Buttons appear for manual control
 
 ### 4. **Points System**
+
 - **10 points per correct answer**
 - **0 points for wrong answers**
 - Points displayed prominently in large, gradient text at the top-right
@@ -45,23 +54,28 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
 - Example: 200 questions = 2,000 total possible points
 
 ### 5. **Progress Persistence (localStorage)**
+
 **What is saved:**
+
 - Current question index
 - Total points earned
 - Category being played
 - Set of attempted questions
 
 **When is it saved:**
+
 - After every correct answer
 - When moving to next question
 - On quiz completion
 
 **When is it restored:**
+
 - On app reload/revisit
 - User can close the browser and continue later
 - Progress automatically loads when entering the quiz again
 
 **Example:**
+
 ```javascript
 // Stored data structure
 {
@@ -75,17 +89,20 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
 ### 6. **UI Enhancements**
 
 #### Points Display
+
 - **Large, gradient text (4xl font)** showing current points
 - Updated in real-time after each correct answer
 - Shows format: `Points: [number]`
 
 #### Success/Failure Messages
+
 - **Correct answer:** Green background, "Well done! ✅"
 - **Wrong answer:** Red background, "Try again ❌"
 - Clear, emoji-enhanced messaging
 - Animated fade-in effect
 
 #### Reset Button
+
 - **Location:** Top-right corner, next to "Back" button
 - **Icon:** Rotating circular arrow icon (RotateCcw)
 - **Action:** Clears all progress and restarts quiz from question 1
@@ -93,6 +110,7 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
 - **Effect:** Sets points to 0 and clears localStorage
 
 ### 7. **Quiz Completion Screen**
+
 - Shows final percentage score
 - Displays total points earned
 - Shows motivational message based on performance:
@@ -104,6 +122,7 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
   - "Try Again" - Resets and restarts the quiz
 
 ### 8. **Category-Specific Progress**
+
 - Progress is saved per category
 - Users can switch between categories and maintain separate progress
 - Reopening a category continues from where they left off
@@ -112,6 +131,7 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
 ## 🔧 Technical Implementation
 
 ### State Management
+
 ```typescript
 - currentQuestion: Current question index
 - points: Total points earned
@@ -122,9 +142,11 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
 ```
 
 ### localStorage Keys
+
 - `quiz_progress` - Stores the entire quiz progress object
 
 ### Auto-Progression Logic
+
 1. User selects correct answer
 2. State updates: `feedbackMessage = "correct"`
 3. useEffect detects change and starts 1.5-second timer
@@ -132,6 +154,7 @@ The Quiz application has been enhanced with persistence, intelligent feedback, a
 5. Timer is cleaned up to prevent memory leaks
 
 ### Answer Selection Prevention
+
 - Once answer is selected, all buttons are disabled
 - Prevents multiple selections on same question
 - Maintains clarity of user's choice
@@ -190,6 +213,7 @@ Show Results Screen
 ## 🎮 Game Statistics
 
 Per Category:
+
 - **Total Questions:** 200
 - **Points per correct answer:** 10
 - **Maximum possible points:** 2,000

@@ -1,6 +1,7 @@
 # Quiz Application - Updated Behavior (Version 2.0)
 
 ## Overview
+
 The Quiz application has been updated with a full success screen experience and mandatory correct answer progression. Users must answer each question correctly to advance, with no skip functionality.
 
 ## 🎯 Key Behaviors
@@ -8,6 +9,7 @@ The Quiz application has been updated with a full success screen experience and 
 ### 1. **Correct Answer Behavior**
 
 **What happens:**
+
 - ✅ Full success screen appears (replaces the question view entirely)
 - 🏆 Trophy icon bounces at the top of the screen
 - **Headline:** "Completed ✅"
@@ -18,6 +20,7 @@ The Quiz application has been updated with a full success screen experience and 
 - **Progress saving:** Current question and points saved to localStorage
 
 **Visual Elements:**
+
 - Bouncing trophy emoji 🏆
 - Centered, full-screen layout
 - Large font sizes for emphasis
@@ -25,6 +28,7 @@ The Quiz application has been updated with a full success screen experience and 
 - Animated loading indicator showing progression
 
 **Example:**
+
 ```
 User at Question 1/200
 Clicks correct answer → Success screen displays
@@ -37,6 +41,7 @@ Question counter increments, points increase by 10
 ### 2. **Wrong Answer Behavior**
 
 **What happens:**
+
 - ❌ "Try again ❌" message displays in red
 - **No correct answer is revealed** - User sees only feedback message
 - Question and options remain visible
@@ -45,17 +50,20 @@ Question counter increments, points increase by 10
 - **No skip option available**
 
 **User must:**
+
 - Select a different answer
 - Keep trying until they get it right
 - There is no way to skip or proceed without correct answer
 
 **Visual Elements:**
+
 - Red feedback message with ❌ emoji
 - Red highlight on the selected wrong answer
 - "Try Another Answer" button to reset selection
 - All options remain visible and clickable
 
 **Example:**
+
 ```
 User at Question 5/200
 Clicks wrong answer → "Try again ❌" message
@@ -69,12 +77,14 @@ Only correct answer allows progression
 ### 3. **Progress Persistence**
 
 **What is saved:**
+
 - Current question index
 - Total points earned
 - Category name
 - Set of attempted questions
 
 **When it's saved:**
+
 - After every correct answer (before auto-advancement)
 - When navigating to next question
 - On every question change
@@ -82,6 +92,7 @@ Only correct answer allows progression
 **Storage location:** `localStorage` with key `"quiz_progress"`
 
 **Persistence example:**
+
 ```
 Session 1:
 - User completes 25 questions
@@ -97,6 +108,7 @@ Session 2:
 ```
 
 **Data structure:**
+
 ```json
 {
   "category": "Geography",
@@ -113,6 +125,7 @@ Session 2:
 **REMOVED:** The Reset button has been completely removed from the interface.
 
 **What this means:**
+
 - ❌ No "Reset" button in header
 - ❌ No way to manually restart quiz
 - ✅ Progress persists indefinitely
@@ -120,6 +133,7 @@ Session 2:
 - ✅ To start over, user would need to clear localStorage manually (advanced users only)
 
 **User Journey:**
+
 ```
 Start Category → Progress through questions → Complete all 200 → See results
                                                ↓
@@ -139,6 +153,7 @@ Start Category → Progress through questions → Complete all 200 → See resul
 **REMOVED:** Users cannot skip questions or proceed without answering correctly.
 
 **What this means:**
+
 - ❌ No "Skip to Next" button when wrong answer
 - ❌ No way to proceed without correct answer
 - ✅ Only "Try Another Answer" button available on wrong answer
@@ -146,6 +161,7 @@ Start Category → Progress through questions → Complete all 200 → See resul
 - ✅ Ensures engaged, thoughtful learning
 
 **Enforcement:**
+
 - Answer buttons are disabled after first selection
 - Only correct answer enables auto-progression
 - Wrong answer only resets selection, not progression
@@ -165,7 +181,7 @@ User sees question and 4 options (A, B, C, D)
 User clicks an option
     ↓
 Is it correct?
-    ├─ YES (Correct Answer) → 
+    ├─ YES (Correct Answer) →
     │  ├─ Full success screen appears
     │  ├─ 🏆 Trophy bounces
     │  ├─ "Completed ✅" headline
@@ -192,16 +208,19 @@ Is it correct?
 ## 💾 Storage & Restoration
 
 ### localStorage Key:
+
 - **Key:** `"quiz_progress"`
 - **Type:** JSON string
 - **Scope:** Per-browser, per-domain
 
 ### What Triggers Save:
+
 1. After user answers correctly
 2. When advancing to next question
 3. On every question navigation
 
 ### What Triggers Restore:
+
 1. When user enters a quiz category
 2. If saved data matches current category
 3. On app reload/return to category
@@ -229,16 +248,19 @@ User reopens app days later → Load (Q4, 30 pts) ✓
 ## 🎮 Scoring System
 
 ### Points Allocation:
+
 - **Per correct answer:** 10 points
 - **Per wrong attempt:** 0 points (no penalty)
 - **Total possible:** `Number of Questions × 10`
 
 ### Example (200 questions):
+
 - All correct: 2,000 points (100%)
 - 160 correct: 1,600 points (80%)
 - 120 correct: 1,200 points (60%)
 
 ### Final Results:
+
 ```
 Quiz Complete Screen shows:
 ├─ Percentage: 72%
@@ -256,6 +278,7 @@ Quiz Complete Screen shows:
 ## 🎨 Full Success Screen Details
 
 **Screen Layout:**
+
 ```
 ┌─────────────────────────────────────────┐
 │                                         │
@@ -279,6 +302,7 @@ Quiz Complete Screen shows:
 ```
 
 **Color Scheme:**
+
 - Background: Gradient from primary/10 via background to secondary/10
 - Trophy: Yellow/gold
 - Text: Foreground color
@@ -286,6 +310,7 @@ Quiz Complete Screen shows:
 - Buttons: Primary color
 
 **Animation:**
+
 - Trophy: Continuous bounce (CSS `animate-bounce`)
 - Spinner: Continuous rotation (CSS `animate-spin`)
 - Both animations loop while screen is visible
@@ -295,12 +320,14 @@ Quiz Complete Screen shows:
 ## 📋 Quiz Completion
 
 **When quiz ends:**
+
 1. User answers Question 200 correctly
 2. Success screen appears briefly
 3. Auto-advancement detects final question
 4. Quiz completion screen displays
 
 **Completion Screen shows:**
+
 - Trophy icon (static, not bouncing)
 - Final percentage: 72% (example)
 - Points earned: "1,440 points out of 2,000"
@@ -309,6 +336,7 @@ Quiz Complete Screen shows:
 - **NO Try Again button** (unlike previous version)
 
 **After Completion:**
+
 - localStorage is cleared (user has finished)
 - User returns to homepage to select new category
 - Can restart same category fresh if desired
@@ -317,16 +345,16 @@ Quiz Complete Screen shows:
 
 ## 🔄 Comparison with Previous Version
 
-| Feature | Previous | Current |
-|---------|----------|---------|
-| **Correct Answer** | Message + manual "Next" | Full success screen + auto-advance |
-| **Visual Feedback** | Text message | Trophy + animated screen |
-| **Wrong Answer** | "Try again" + skip option | "Try again" + retry only |
-| **Skip Enabled** | Yes | No |
-| **Reset Button** | Yes, with confirmation | Removed completely |
-| **Progress Persistence** | Yes (same) | Yes (same, no clearing on back) |
-| **Auto-Progression** | Yes (1.5s) | Yes (1.5s, with new screen) |
-| **User Control** | Manual "Next" for correct | Automatic for correct |
+| Feature                  | Previous                  | Current                            |
+| ------------------------ | ------------------------- | ---------------------------------- |
+| **Correct Answer**       | Message + manual "Next"   | Full success screen + auto-advance |
+| **Visual Feedback**      | Text message              | Trophy + animated screen           |
+| **Wrong Answer**         | "Try again" + skip option | "Try again" + retry only           |
+| **Skip Enabled**         | Yes                       | No                                 |
+| **Reset Button**         | Yes, with confirmation    | Removed completely                 |
+| **Progress Persistence** | Yes (same)                | Yes (same, no clearing on back)    |
+| **Auto-Progression**     | Yes (1.5s)                | Yes (1.5s, with new screen)        |
+| **User Control**         | Manual "Next" for correct | Automatic for correct              |
 
 ---
 
@@ -344,6 +372,7 @@ Quiz Complete Screen shows:
 ## 🚀 Implementation Details
 
 ### State Management:
+
 ```typescript
 feedbackMessage: "correct" | "wrong" | null
 selectedAnswer: string | null (A, B, C, or D)
@@ -352,6 +381,7 @@ points: number (0-2000)
 ```
 
 ### Key Functions:
+
 1. `handleAnswerSelect()` - Processes answer selection
 2. `handleNextQuestion()` - Advances to next question
 3. `saveProgress()` - Stores to localStorage
@@ -359,6 +389,7 @@ points: number (0-2000)
 5. `useEffect()` - Handles auto-progression timer
 
 ### Display Conditions:
+
 ```typescript
 if (feedbackMessage === "correct") {
   // Show full success screen

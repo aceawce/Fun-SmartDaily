@@ -37,11 +37,16 @@ export default function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [points, setPoints] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [feedbackMessage, setFeedbackMessage] = useState<"correct" | "wrong" | null>(null);
+  const [feedbackMessage, setFeedbackMessage] = useState<
+    "correct" | "wrong" | null
+  >(null);
   const [loading, setLoading] = useState(true);
   const [quizComplete, setQuizComplete] = useState(false);
-  const [attemptedQuestions, setAttemptedQuestions] = useState<Set<number>>(new Set());
-  const [autoProgressTimer, setAutoProgressTimer] = useState<NodeJS.Timeout | null>(null);
+  const [attemptedQuestions, setAttemptedQuestions] = useState<Set<number>>(
+    new Set(),
+  );
+  const [autoProgressTimer, setAutoProgressTimer] =
+    useState<NodeJS.Timeout | null>(null);
 
   // Load quiz data and restore progress
   useEffect(() => {
@@ -49,7 +54,9 @@ export default function Quiz() {
       try {
         const response = await fetch("/quiz-data.json");
         const data: QuizData = await response.json();
-        const categoryData = data.categories.find((c) => c.category === category);
+        const categoryData = data.categories.find(
+          (c) => c.category === category,
+        );
         if (categoryData) {
           setQuizData(categoryData.questions);
           // Restore progress from localStorage
@@ -100,7 +107,11 @@ export default function Quiz() {
     }
   };
 
-  const saveProgress = (questionIndex: number, newPoints: number, attempted: Set<number>) => {
+  const saveProgress = (
+    questionIndex: number,
+    newPoints: number,
+    attempted: Set<number>,
+  ) => {
     try {
       const progress: QuizProgress = {
         category: category || "",
@@ -151,11 +162,18 @@ export default function Quiz() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
+      <div
+        className="min-h-screen flex items-center justify-center"
+        style={{ backgroundColor: "hsl(39, 100%, 96%)" }}
+      >
         <div className="text-center">
           <div className="animate-spin rounded-full h-16 w-16 border-4 border-primary/30 border-t-primary mx-auto mb-6"></div>
-          <p className="text-foreground text-xl font-bold">Loading your quiz...</p>
-          <p className="text-foreground/60 mt-2">Get ready for an exciting challenge!</p>
+          <p className="text-foreground text-xl font-bold">
+            Loading your quiz...
+          </p>
+          <p className="text-foreground/60 mt-2">
+            Get ready for an exciting challenge!
+          </p>
         </div>
       </div>
     );
@@ -164,7 +182,10 @@ export default function Quiz() {
   // Full Success Screen - shown when user answers correctly
   if (feedbackMessage === "correct") {
     return (
-      <div className="min-h-screen flex items-center justify-center p-4" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
+      <div
+        className="min-h-screen flex items-center justify-center p-4"
+        style={{ backgroundColor: "hsl(39, 100%, 96%)" }}
+      >
         <div className="text-center max-w-2xl">
           {/* Trophy Animation */}
           <div className="mb-8 flex justify-center">
@@ -182,28 +203,41 @@ export default function Quiz() {
 
           {/* Points Card */}
           <Card className="p-8 mb-8 border-2 border-primary/40 shadow-2xl bg-card-gradient backdrop-blur">
-            <p className="text-sm text-foreground/70 font-semibold uppercase tracking-widest mb-3">Points Earned</p>
+            <p className="text-sm text-foreground/70 font-semibold uppercase tracking-widest mb-3">
+              Points Earned
+            </p>
             <div className="text-7xl font-black bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">
               +10
             </div>
-            <p className="text-foreground/60 mt-4 text-lg font-semibold">Excellent Answer!</p>
+            <p className="text-foreground/60 mt-4 text-lg font-semibold">
+              Excellent Answer!
+            </p>
           </Card>
 
           {/* Progress Info */}
           <div className="mb-8 bg-white/20 backdrop-blur rounded-2xl p-6 border border-white/30">
             <div className="flex justify-between items-center mb-4">
-              <p className="text-foreground/80 font-semibold">Question Progress</p>
-              <p className="text-lg font-bold text-primary">{Math.round(((currentQuestion + 1) / quizData.length) * 100)}%</p>
+              <p className="text-foreground/80 font-semibold">
+                Question Progress
+              </p>
+              <p className="text-lg font-bold text-primary">
+                {Math.round(((currentQuestion + 1) / quizData.length) * 100)}%
+              </p>
             </div>
             <p className="text-foreground/70 mb-3 font-semibold">
               Question {currentQuestion + 1} of {quizData.length}
             </p>
-            <Progress value={((currentQuestion + 1) / quizData.length) * 100} className="h-3" />
+            <Progress
+              value={((currentQuestion + 1) / quizData.length) * 100}
+              className="h-3"
+            />
           </div>
 
           {/* Total Points */}
           <div className="mb-8 text-center">
-            <p className="text-foreground/70 font-semibold mb-2">Total Points</p>
+            <p className="text-foreground/70 font-semibold mb-2">
+              Total Points
+            </p>
             <p className="text-5xl font-black text-primary">{points}</p>
           </div>
 
@@ -213,7 +247,9 @@ export default function Quiz() {
               <div className="inline-block">
                 <div className="animate-spin rounded-full h-8 w-8 border-3 border-primary/30 border-t-primary"></div>
               </div>
-              <p className="text-foreground/60 mt-3 font-semibold">Moving to next question...</p>
+              <p className="text-foreground/60 mt-3 font-semibold">
+                Moving to next question...
+              </p>
             </div>
           </div>
         </div>
@@ -224,7 +260,10 @@ export default function Quiz() {
   if (quizComplete) {
     const percentage = Math.round((points / (quizData.length * 10)) * 100);
     return (
-      <div className="min-h-screen flex items-center justify-center p-4" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
+      <div
+        className="min-h-screen flex items-center justify-center p-4"
+        style={{ backgroundColor: "hsl(39, 100%, 96%)" }}
+      >
         <Card className="w-full max-w-2xl p-10 sm:p-16 border-2 border-primary/40 shadow-2xl bg-card-gradient backdrop-blur">
           {/* Trophy */}
           <div className="mb-8 flex justify-center">
@@ -238,16 +277,21 @@ export default function Quiz() {
             <h2 className="text-5xl sm:text-6xl font-black text-foreground mb-4">
               Quiz Complete!
             </h2>
-            <p className="text-2xl text-primary font-bold mb-6">You Mastered It! 🌟</p>
+            <p className="text-2xl text-primary font-bold mb-6">
+              You Mastered It! 🌟
+            </p>
 
             {/* Score */}
             <div className="bg-white/30 backdrop-blur rounded-2xl p-8 mb-8 border border-white/40">
-              <p className="text-foreground/70 font-semibold mb-3">Final Score</p>
+              <p className="text-foreground/70 font-semibold mb-3">
+                Final Score
+              </p>
               <div className="text-7xl font-black bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent mb-4">
                 {percentage}%
               </div>
               <p className="text-lg font-semibold text-foreground">
-                <span className="text-primary font-black">{points}</span> points out of {quizData.length * 10}
+                <span className="text-primary font-black">{points}</span> points
+                out of {quizData.length * 10}
               </p>
             </div>
 
@@ -261,7 +305,10 @@ export default function Quiz() {
             </div>
           </div>
 
-          <Button onClick={handleBackToHome} className="w-full py-6 text-lg font-bold rounded-xl">
+          <Button
+            onClick={handleBackToHome}
+            className="w-full py-6 text-lg font-bold rounded-xl"
+          >
             Return to Home
           </Button>
         </Card>
@@ -271,9 +318,14 @@ export default function Quiz() {
 
   if (quizData.length === 0) {
     return (
-      <div className="min-h-screen flex items-center justify-center p-4" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
+      <div
+        className="min-h-screen flex items-center justify-center p-4"
+        style={{ backgroundColor: "hsl(39, 100%, 96%)" }}
+      >
         <Card className="w-full max-w-md p-8 border-2 border-primary/40 shadow-xl bg-card-gradient backdrop-blur text-center">
-          <p className="text-foreground mb-6 font-semibold text-lg">Quiz data not found</p>
+          <p className="text-foreground mb-6 font-semibold text-lg">
+            Quiz data not found
+          </p>
           <Button onClick={handleBackToHome} className="w-full">
             Back to Home
           </Button>
@@ -286,10 +338,16 @@ export default function Quiz() {
   const progress = ((currentQuestion + 1) / quizData.length) * 100;
 
   return (
-    <div className="min-h-screen p-4 sm:p-6" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
+    <div
+      className="min-h-screen p-4 sm:p-6"
+      style={{ backgroundColor: "hsl(39, 100%, 96%)" }}
+    >
       <div className="max-w-3xl mx-auto">
         {/* Header */}
-        <div className="mb-8 p-6 -m-4 rounded-2xl" style={{backgroundColor: "hsl(39, 100%, 94%)"}}>
+        <div
+          className="mb-8 p-6 -m-4 rounded-2xl"
+          style={{ backgroundColor: "hsl(39, 100%, 94%)" }}
+        >
           <button
             onClick={handleBackToHome}
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-bold mb-6"
@@ -300,11 +358,17 @@ export default function Quiz() {
 
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
             <div>
-              <h1 className="text-3xl sm:text-4xl font-black text-foreground">{category}</h1>
-              <p className="text-foreground/60 font-semibold mt-1">Fun & Smart Daily</p>
+              <h1 className="text-3xl sm:text-4xl font-black text-foreground">
+                {category}
+              </h1>
+              <p className="text-foreground/60 font-semibold mt-1">
+                Fun & Smart Daily
+              </p>
             </div>
             <Card className="p-4 sm:p-6 border-2 border-primary/30 bg-white/40 backdrop-blur">
-              <p className="text-foreground/70 text-sm font-bold uppercase tracking-wide mb-1">Total Points</p>
+              <p className="text-foreground/70 text-sm font-bold uppercase tracking-wide mb-1">
+                Total Points
+              </p>
               <div className="text-4xl font-black text-primary">{points}</div>
             </Card>
           </div>
@@ -316,7 +380,9 @@ export default function Quiz() {
             <span className="font-bold text-foreground">
               Question {currentQuestion + 1} of {quizData.length}
             </span>
-            <span className="font-bold text-primary">{Math.round(progress)}%</span>
+            <span className="font-bold text-primary">
+              {Math.round(progress)}%
+            </span>
           </div>
           <Progress value={progress} className="h-3" />
         </div>
@@ -332,7 +398,7 @@ export default function Quiz() {
                     ? "bg-green-100/60 text-green-900"
                     : question.difficulty === "Medium"
                       ? "bg-amber-100/60 text-amber-900"
-                      : "bg-orange-100/60 text-orange-900"
+                      : "bg-orange-100/60 text-orange-900",
                 )}
               >
                 {question.difficulty} Level
@@ -341,7 +407,9 @@ export default function Quiz() {
                 {question.game_type}
               </span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-foreground leading-tight">{question.question}</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-foreground leading-tight">
+              {question.question}
+            </h2>
           </div>
 
           {/* Answer Options */}
@@ -350,7 +418,8 @@ export default function Quiz() {
               const optionLetter = String.fromCharCode(65 + index); // A, B, C, D
               const isSelected = selectedAnswer === optionLetter;
               const isCorrect = optionLetter === question.correct_answer;
-              const isWrong = isSelected && optionLetter !== question.correct_answer;
+              const isWrong =
+                isSelected && optionLetter !== question.correct_answer;
               const isDisabled = selectedAnswer !== null;
 
               return (
@@ -360,13 +429,25 @@ export default function Quiz() {
                   disabled={isDisabled}
                   className={cn(
                     "w-full p-5 text-left rounded-xl border-2 transition-all font-semibold text-lg",
-                    !isDisabled && "hover:border-primary/60 hover:bg-white/30 cursor-pointer",
+                    !isDisabled &&
+                      "hover:border-primary/60 hover:bg-white/30 cursor-pointer",
                     isDisabled && "cursor-default",
-                    !isSelected && !isDisabled && "border-primary/30 hover:border-primary/60 bg-white/20",
-                    isSelected && !isDisabled && "border-primary/60 bg-primary/20",
-                    isSelected && isCorrect && "border-green-500/60 bg-green-100/40 text-green-900 ring-2 ring-green-400/50",
-                    isSelected && isWrong && "border-red-500/60 bg-red-100/40 text-red-900 ring-2 ring-red-400/50",
-                    isDisabled && !isSelected && !isCorrect && "border-primary/20 opacity-50 bg-white/10"
+                    !isSelected &&
+                      !isDisabled &&
+                      "border-primary/30 hover:border-primary/60 bg-white/20",
+                    isSelected &&
+                      !isDisabled &&
+                      "border-primary/60 bg-primary/20",
+                    isSelected &&
+                      isCorrect &&
+                      "border-green-500/60 bg-green-100/40 text-green-900 ring-2 ring-green-400/50",
+                    isSelected &&
+                      isWrong &&
+                      "border-red-500/60 bg-red-100/40 text-red-900 ring-2 ring-red-400/50",
+                    isDisabled &&
+                      !isSelected &&
+                      !isCorrect &&
+                      "border-primary/20 opacity-50 bg-white/10",
                   )}
                 >
                   <div className="flex items-center justify-between">
@@ -376,8 +457,12 @@ export default function Quiz() {
                       </span>
                       <span>{option.substring(3)}</span>
                     </div>
-                    {isSelected && isCorrect && <Check className="w-6 h-6 text-green-600 animate-pulse" />}
-                    {isSelected && isWrong && <X className="w-6 h-6 text-red-600 animate-pulse" />}
+                    {isSelected && isCorrect && (
+                      <Check className="w-6 h-6 text-green-600 animate-pulse" />
+                    )}
+                    {isSelected && isWrong && (
+                      <X className="w-6 h-6 text-red-600 animate-pulse" />
+                    )}
                   </div>
                 </button>
               );
