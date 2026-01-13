@@ -146,7 +146,7 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t-2 border-primary/30 mt-20 py-12 bg-background/60 backdrop-blur">
+      <footer className="border-t-2 border-primary/30 mt-20 py-12 backdrop-blur" style={{backgroundColor: "hsl(39, 100%, 94%)"}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-foreground/80 font-semibold mb-2">© 2024 Fun & Smart Daily</p>
           <p className="text-sm text-foreground/60">Premium Learning Experience • Master Your Knowledge</p>
