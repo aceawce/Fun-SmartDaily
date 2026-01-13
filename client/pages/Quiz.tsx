@@ -289,7 +289,7 @@ export default function Quiz() {
     <div className="min-h-screen p-4 sm:p-6" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
       <div className="max-w-3xl mx-auto">
         {/* Header */}
-        <div className="mb-8">
+        <div className="mb-8 p-6 -m-4 rounded-2xl" style={{backgroundColor: "hsl(39, 100%, 94%)"}}>
           <button
             onClick={handleBackToHome}
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-bold mb-6"
