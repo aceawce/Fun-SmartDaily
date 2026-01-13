@@ -224,7 +224,7 @@ export default function Quiz() {
   if (quizComplete) {
     const percentage = Math.round((points / (quizData.length * 10)) * 100);
     return (
-      <div className="min-h-screen bg-luxurious-gradient flex items-center justify-center p-4">
+      <div className="min-h-screen flex items-center justify-center p-4" style={{backgroundColor: "hsl(39, 100%, 96%)"}}>
         <Card className="w-full max-w-2xl p-10 sm:p-16 border-2 border-primary/40 shadow-2xl bg-card-gradient backdrop-blur">
           {/* Trophy */}
           <div className="mb-8 flex justify-center">
