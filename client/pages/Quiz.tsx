@@ -37,7 +37,7 @@ export default function Quiz() {
 
   const loadQuizData = async () => {
     try {
-      const response = await fetch("/public/quiz-data.json");
+      const response = await fetch("/quiz-data.json");
       const data = await response.json();
 
       const selectedCategory = data.find(
