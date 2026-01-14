@@ -1,0 +1,144 @@
+{
+  "categories": [
+    {
+      "name": "Geography",
+      "questions": [
+        {
+          "question": "What is the capital of France?",
+          "options": ["A. Lyon", "B. Paris", "C. Marseille", "D. Nice"],
+          "correct_answer": "B. Paris",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Which is the largest continent?",
+          "options": ["A. Africa", "B. Europe", "C. Asia", "D. North America"],
+          "correct_answer": "C. Asia",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the capital of Japan?",
+          "options": ["A. Osaka", "B. Kyoto", "C. Tokyo", "D. Yokohama"],
+          "correct_answer": "C. Tokyo",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Which country has the most islands?",
+          "options": ["A. Philippines", "B. Indonesia", "C. Sweden", "D. Norway"],
+          "correct_answer": "C. Sweden",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "What is the longest river in the world?",
+          "options": ["A. Amazon", "B. Yangtze", "C. Nile", "D. Mississippi"],
+          "correct_answer": "C. Nile",
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "name": "Science",
+      "questions": [
+        {
+          "question": "What is the chemical symbol for gold?",
+          "options": ["A. Au", "B. Ag", "C. Gd", "D. Go"],
+          "correct_answer": "A. Au",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "How many bones are in the human body?",
+          "options": ["A. 186", "B. 206", "C. 226", "D. 246"],
+          "correct_answer": "B. 206",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "What is the speed of light?",
+          "options": ["A. 299,792 km/s", "B. 199,792 km/s", "C. 399,792 km/s", "D. 99,792 km/s"],
+          "correct_answer": "A. 299,792 km/s",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Which gas do plants absorb from the atmosphere?",
+          "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Argon"],
+          "correct_answer": "B. Carbon Dioxide",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the smallest unit of life?",
+          "options": ["A. Atom", "B. Molecule", "C. Cell", "D. Nucleus"],
+          "correct_answer": "C. Cell",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "questions": [
+        {
+          "question": "In what year did World War II end?",
+          "options": ["A. 1943", "B. 1944", "C. 1945", "D. 1946"],
+          "correct_answer": "C. 1945",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Who was the first President of the United States?",
+          "options": ["A. Thomas Jefferson", "B. George Washington", "C. John Adams", "D. Benjamin Franklin"],
+          "correct_answer": "B. George Washington",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In what year did the Titanic sink?",
+          "options": ["A. 1910", "B. 1911", "C. 1912", "D. 1913"],
+          "correct_answer": "C. 1912",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Who wrote the Declaration of Independence?",
+          "options": ["A. Benjamin Franklin", "B. John Adams", "C. Thomas Jefferson", "D. James Madison"],
+          "correct_answer": "C. Thomas Jefferson",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "What year did the Roman Empire fall?",
+          "options": ["A. 376 AD", "B. 476 AD", "C. 576 AD", "D. 676 AD"],
+          "correct_answer": "B. 476 AD",
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "name": "Logic & Math",
+      "questions": [
+        {
+          "question": "What is 15 × 4?",
+          "options": ["A. 50", "B. 60", "C. 70", "D. 80"],
+          "correct_answer": "B. 60",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the square root of 144?",
+          "options": ["A. 10", "B. 12", "C. 14", "D. 16"],
+          "correct_answer": "B. 12",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "If x + 5 = 12, what is x?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "correct_answer": "C. 7",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What comes next in the sequence: 2, 4, 8, 16, ?",
+          "options": ["A. 24", "B. 28", "C. 32", "D. 36"],
+          "correct_answer": "C. 32",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "If all cats are animals and Fluffy is a cat, then Fluffy is an animal. Is this true?",
+          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "correct_answer": "A. True",
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}
