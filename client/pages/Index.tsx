@@ -60,8 +60,7 @@ export default function Index() {
               onClick={() => navigate(`/quiz/${category.id}`)}
               className="group cursor-pointer"
             >
-              <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 p-8 h-full flex flex-col justify-between"
-              >
+              <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 p-8 h-full flex flex-col justify-between">
                 <div>
                   <div className="text-6xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
                     {category.icon}
@@ -69,9 +68,7 @@ export default function Index() {
                   <h2 className="text-3xl font-bold text-slate-900 mb-2">
                     {category.name}
                   </h2>
-                  <p className="text-slate-600 text-lg">
-                    {category.desc}
-                  </p>
+                  <p className="text-slate-600 text-lg">{category.desc}</p>
                 </div>
                 <Button
                   onClick={() => navigate(`/quiz/${category.id}`)}
@@ -92,19 +89,25 @@ export default function Index() {
               <div className="text-5xl font-black bg-gradient-to-r from-yellow-500 to-amber-500 bg-clip-text text-transparent">
                 100+
               </div>
-              <p className="text-slate-600 text-lg font-semibold mt-2">Questions</p>
+              <p className="text-slate-600 text-lg font-semibold mt-2">
+                Questions
+              </p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-black bg-gradient-to-r from-yellow-500 to-amber-500 bg-clip-text text-transparent">
                 4
               </div>
-              <p className="text-slate-600 text-lg font-semibold mt-2">Categories</p>
+              <p className="text-slate-600 text-lg font-semibold mt-2">
+                Categories
+              </p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-black bg-gradient-to-r from-yellow-500 to-amber-500 bg-clip-text text-transparent">
                 10 pts
               </div>
-              <p className="text-slate-600 text-lg font-semibold mt-2">Per Correct</p>
+              <p className="text-slate-600 text-lg font-semibold mt-2">
+                Per Correct
+              </p>
             </div>
           </div>
         </div>

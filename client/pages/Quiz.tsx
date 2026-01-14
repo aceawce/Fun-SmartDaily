@@ -105,10 +105,7 @@ export default function Quiz() {
       questionsAttempted,
       completedQuestions,
     };
-    localStorage.setItem(
-      `category_stats_${category}`,
-      JSON.stringify(stats),
-    );
+    localStorage.setItem(`category_stats_${category}`, JSON.stringify(stats));
   };
 
   const handleAnswerSelect = (option: string) => {
