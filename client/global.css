@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 40% 97%;
+    --foreground: 20 14% 4%;
+
+    --card: 39 100% 98%;
+    --card-foreground: 20 14% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 4%;
+
+    --muted: 160 24% 74%;
+    --muted-foreground: 25 5% 48%;
+
+    --accent: 37 92% 50%;
+    --accent-foreground: 39 89% 2%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 39 89% 97%;
+
+    --border: 39 89% 94%;
+    --input: 39 89% 94%;
+    --ring: 37 92% 50%;
+
+    --radius: 0.5rem;
+
+    --primary: 37 92% 50%;
+    --primary-foreground: 39 89% 2%;
+
+    --secondary: 39 89% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --sidebar-background: 39 100% 97%;
+    --sidebar-foreground: 20 14% 4%;
+    --sidebar-primary: 37 92% 50%;
+    --sidebar-primary-foreground: 39 89% 2%;
+    --sidebar-accent: 37 92% 50%;
+    --sidebar-accent-foreground: 39 89% 2%;
+    --sidebar-border: 39 89% 94%;
+    --sidebar-ring: 37 92% 50%;
+  }
+
+  .dark {
+    --background: 20 14% 4%;
+    --foreground: 39 89% 97%;
+
+    --card: 20 13% 8%;
+    --card-foreground: 39 89% 97%;
+
+    --popover: 20 13% 8%;
+    --popover-foreground: 39 89% 97%;
+
+    --muted: 160 24% 74%;
+    --muted-foreground: 25 5% 48%;
+
+    --accent: 37 92% 50%;
+    --accent-foreground: 39 89% 2%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 39 89% 97%;
+
+    --border: 20 13% 8%;
+    --input: 20 13% 8%;
+    --ring: 37 92% 50%;
+
+    --sidebar-background: 20 13% 8%;
+    --sidebar-foreground: 39 89% 97%;
+    --sidebar-primary: 37 92% 50%;
+    --sidebar-primary-foreground: 39 89% 2%;
+    --sidebar-accent: 37 92% 50%;
+    --sidebar-accent-foreground: 39 89% 2%;
+    --sidebar-border: 20 13% 8%;
+    --sidebar-ring: 37 92% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
