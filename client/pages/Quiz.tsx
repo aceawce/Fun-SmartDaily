@@ -41,7 +41,9 @@ export default function Quiz() {
       const data = await response.json();
 
       const selectedCategory = data.categories.find(
-        (cat: Category) => cat.name.toLowerCase().replace(/\s+/g, "") === category?.toLowerCase()
+        (cat: Category) =>
+          cat.name.toLowerCase().replace(/\s+/g, "") ===
+          category?.toLowerCase(),
       );
 
       if (selectedCategory) {
@@ -67,7 +69,7 @@ export default function Quiz() {
   const saveProgress = (questionIndex: number, newPoints: number) => {
     localStorage.setItem(
       `quiz_${category}`,
-      JSON.stringify({ questionIndex, currentPoints: newPoints })
+      JSON.stringify({ questionIndex, currentPoints: newPoints }),
     );
   };
 
@@ -129,8 +131,13 @@ export default function Quiz() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-white to-slate-50 flex items-center justify-center p-4">
         <Card className="p-8 text-center border-0">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Quiz not found</h2>
-          <Button onClick={handleBackToHome} className="bg-amber-600 hover:bg-amber-700">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">
+            Quiz not found
+          </h2>
+          <Button
+            onClick={handleBackToHome}
+            className="bg-amber-600 hover:bg-amber-700"
+          >
             Back to Home
           </Button>
         </Card>
@@ -184,7 +191,9 @@ export default function Quiz() {
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back
           </Button>
-          <h1 className="text-3xl sm:text-4xl font-black text-slate-900">{categoryName}</h1>
+          <h1 className="text-3xl sm:text-4xl font-black text-slate-900">
+            {categoryName}
+          </h1>
           <Badge className="bg-amber-100 text-amber-800 text-base px-3 py-1">
             {current.difficulty}
           </Badge>
@@ -207,7 +216,9 @@ export default function Quiz() {
 
         {/* Question */}
         <Card className="p-6 mb-6 border-0">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">{current.question}</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">
+            {current.question}
+          </h2>
 
           {/* Options */}
           <div className="space-y-3">
@@ -233,7 +244,9 @@ export default function Quiz() {
                   className={`w-full p-4 text-left rounded-lg border-2 border-slate-200 transition-all ${bgColor}`}
                 >
                   <div className="flex items-start gap-3">
-                    <span className="font-bold text-slate-900 min-w-max">{letter}.</span>
+                    <span className="font-bold text-slate-900 min-w-max">
+                      {letter}.
+                    </span>
                     <span className="text-slate-900">{option}</span>
                   </div>
                 </button>

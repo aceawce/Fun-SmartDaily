@@ -4,10 +4,30 @@ import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 
 const categories = [
-  { id: "geography", name: "Geography", icon: "🌍", color: "from-blue-500 to-cyan-500" },
-  { id: "science", name: "Science", icon: "🔬", color: "from-green-500 to-emerald-500" },
-  { id: "history", name: "History", icon: "📚", color: "from-purple-500 to-pink-500" },
-  { id: "logic", name: "Logic & Math", icon: "🧮", color: "from-yellow-500 to-orange-500" },
+  {
+    id: "geography",
+    name: "Geography",
+    icon: "🌍",
+    color: "from-blue-500 to-cyan-500",
+  },
+  {
+    id: "science",
+    name: "Science",
+    icon: "🔬",
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    id: "history",
+    name: "History",
+    icon: "📚",
+    color: "from-purple-500 to-pink-500",
+  },
+  {
+    id: "logic",
+    name: "Logic & Math",
+    icon: "🧮",
+    color: "from-yellow-500 to-orange-500",
+  },
 ];
 
 export default function Index() {
@@ -23,7 +43,9 @@ export default function Index() {
             <h1 className="text-5xl font-black text-slate-900">Quiz Master</h1>
             <Sparkles className="w-8 h-8 text-amber-600" />
           </div>
-          <p className="text-xl text-slate-600">Challenge yourself with exciting quizzes</p>
+          <p className="text-xl text-slate-600">
+            Challenge yourself with exciting quizzes
+          </p>
         </div>
 
         {/* Category Grid */}
@@ -34,10 +56,14 @@ export default function Index() {
               className="p-6 hover:shadow-lg transition-shadow cursor-pointer overflow-hidden border-0"
               onClick={() => navigate(`/quiz/${category.id}`)}
             >
-              <div className={`bg-gradient-to-br ${category.color} rounded-lg p-8 mb-4 text-center`}>
+              <div
+                className={`bg-gradient-to-br ${category.color} rounded-lg p-8 mb-4 text-center`}
+              >
                 <div className="text-5xl mb-2">{category.icon}</div>
               </div>
-              <h2 className="text-2xl font-bold text-slate-900 mb-2">{category.name}</h2>
+              <h2 className="text-2xl font-bold text-slate-900 mb-2">
+                {category.name}
+              </h2>
               <p className="text-slate-600 mb-4">Test your knowledge</p>
               <Button className="w-full bg-amber-600 hover:bg-amber-700">
                 Start Quiz

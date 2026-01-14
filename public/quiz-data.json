@@ -23,7 +23,12 @@
         },
         {
           "question": "Which country has the most islands?",
-          "options": ["A. Philippines", "B. Indonesia", "C. Sweden", "D. Norway"],
+          "options": [
+            "A. Philippines",
+            "B. Indonesia",
+            "C. Sweden",
+            "D. Norway"
+          ],
           "correct_answer": "C. Sweden",
           "difficulty": "Hard"
         },
@@ -52,13 +57,23 @@
         },
         {
           "question": "What is the speed of light?",
-          "options": ["A. 299,792 km/s", "B. 199,792 km/s", "C. 399,792 km/s", "D. 99,792 km/s"],
+          "options": [
+            "A. 299,792 km/s",
+            "B. 199,792 km/s",
+            "C. 399,792 km/s",
+            "D. 99,792 km/s"
+          ],
           "correct_answer": "A. 299,792 km/s",
           "difficulty": "Hard"
         },
         {
           "question": "Which gas do plants absorb from the atmosphere?",
-          "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Argon"],
+          "options": [
+            "A. Oxygen",
+            "B. Carbon Dioxide",
+            "C. Nitrogen",
+            "D. Argon"
+          ],
           "correct_answer": "B. Carbon Dioxide",
           "difficulty": "Easy"
         },
@@ -81,7 +96,12 @@
         },
         {
           "question": "Who was the first President of the United States?",
-          "options": ["A. Thomas Jefferson", "B. George Washington", "C. John Adams", "D. Benjamin Franklin"],
+          "options": [
+            "A. Thomas Jefferson",
+            "B. George Washington",
+            "C. John Adams",
+            "D. Benjamin Franklin"
+          ],
           "correct_answer": "B. George Washington",
           "difficulty": "Easy"
         },
@@ -93,7 +113,12 @@
         },
         {
           "question": "Who wrote the Declaration of Independence?",
-          "options": ["A. Benjamin Franklin", "B. John Adams", "C. Thomas Jefferson", "D. James Madison"],
+          "options": [
+            "A. Benjamin Franklin",
+            "B. John Adams",
+            "C. Thomas Jefferson",
+            "D. James Madison"
+          ],
           "correct_answer": "C. Thomas Jefferson",
           "difficulty": "Medium"
         },
@@ -134,7 +159,12 @@
         },
         {
           "question": "If all cats are animals and Fluffy is a cat, then Fluffy is an animal. Is this true?",
-          "options": ["A. True", "B. False", "C. Cannot be determined", "D. None of the above"],
+          "options": [
+            "A. True",
+            "B. False",
+            "C. Cannot be determined",
+            "D. None of the above"
+          ],
           "correct_answer": "A. True",
           "difficulty": "Medium"
         }
