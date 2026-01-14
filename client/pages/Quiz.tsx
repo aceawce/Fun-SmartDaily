@@ -40,7 +40,7 @@ export default function Quiz() {
       const response = await fetch("/quiz-data.json");
       const data = await response.json();
 
-      const selectedCategory = data.find(
+      const selectedCategory = data.categories.find(
         (cat: Category) => cat.name.toLowerCase().replace(/\s+/g, "") === category?.toLowerCase()
       );
 
